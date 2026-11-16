@@ -14,9 +14,7 @@ function difference_to_next_square takes number value returns number is
     constant sentinel is it
     repeat with i from 3 to sentinel
         hollow_square i
-        if it is value
-            return 0
-        else if it is greater than value
+        if it is at least value
             return it - value
         end if
     end repeat
