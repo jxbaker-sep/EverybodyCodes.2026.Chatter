@@ -1,15 +1,26 @@
-# Quest 1 — Part 3
-#
-# Run with:
-#     ./run.py 1 3 --example     # against part3.example.txt
-#     ./run.py 1 3               # against part3.txt
-#
-# Print the final answer using:
-#     say "ANSWER:", value
-# Anything else printed via `say` is ignored by run.py (treated as debug).
 
 use get_input from "../util/io"
-constant input is the result of get_input
+use integers from "std:parser"
+use sum from "std:math"
+get_input
+integers item 1 of it
 
-# TODO: solve quest 1 part 3
-say "ANSWER:", "TODO"
+function hollow_square takes number size returns number is
+    return size * size - 1
+end function
+
+function difference_to_next_square takes number value returns number is
+    repeat with i from 1 to value
+        hollow_square i * 2 + 1
+        if it is at least value
+            return it - value
+        end if
+    end repeat
+    fail "This cannot happen " & value
+end function
+
+map it using the result of difference_to_next_square it
+sum it
+
+
+say "ANSWER:", it
