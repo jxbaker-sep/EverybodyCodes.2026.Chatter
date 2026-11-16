@@ -35,7 +35,7 @@ import threading
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent
-CHATTER_REPO = Path(os.environ.get("CHATTER_HOME", "/Users/jxbaker/dev/chatter"))
+CHATTER_REPO = Path(os.environ.get("CHATTER_HOME", "/Users/jxbaker/dev/chatter-lang"))
 
 ANSWER_RE = re.compile(r"^ANSWER:\s*(.*?)\s*$")
 

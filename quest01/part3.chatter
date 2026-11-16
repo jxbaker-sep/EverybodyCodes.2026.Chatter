@@ -1,0 +1,15 @@
+# Quest 1 — Part 3
+#
+# Run with:
+#     ./run.py 1 3 --example     # against part3.example.txt
+#     ./run.py 1 3               # against part3.txt
+#
+# Print the final answer using:
+#     say "ANSWER:", value
+# Anything else printed via `say` is ignored by run.py (treated as debug).
+
+use get_input from "../util/io"
+constant input is the result of get_input
+
+# TODO: solve quest 1 part 3
+say "ANSWER:", "TODO"

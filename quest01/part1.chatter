@@ -1,0 +1,30 @@
+# Quest 1 — Part 1
+#
+# Run with:
+#     ./run.py 1 1 --example     # against part1.example.txt
+#     ./run.py 1 1               # against part1.txt
+#
+# Print the final answer using:
+#     say "ANSWER:", value
+# Anything else printed via `say` is ignored by run.py (treated as debug).
+
+use get_input from "../util/io"
+use integers from "std:parser"
+use isqrt, sum from "std:math"
+get_input
+integers item 1 of it
+
+function difference_to_next_square takes number value returns number is
+    constant floor is the result of isqrt value
+    if (floor * floor) is value
+        return 0
+    end if
+    return (floor + 1) * (floor + 1) - value
+end function
+
+map it using the result of difference_to_next_square it
+sum it
+
+
+# TODO: solve quest 1 part 1
+say "ANSWER:", it
