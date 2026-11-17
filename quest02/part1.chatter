@@ -1,0 +1,36 @@
+# Quest 2 — Part 1
+#
+# Run with:
+#     ./run.py 2 1 --example     # against part1.example.txt
+#     ./run.py 2 1               # against part1.txt
+#
+# Print the final answer using:
+#     say "ANSWER:", value
+# Anything else printed via `say` is ignored by run.py (treated as debug).
+
+use get_input from "../util/io"
+use split from "std:string"
+use uniquify from "std:list"
+get_input
+map it using the result of split it on " "
+variable checksum is 0
+repeat with l_ordering in it
+    uniquify l_ordering
+    constant ordering is it
+    constant result is list of 1, 2, 3, 4, 5
+    repeat with i from 1 to 4
+        repeat with j from i + 1 to 5
+            variable x is item i of result
+            variable y is item j of result
+            if ordering contains "" & x & "<" & y or ordering contains "" & y & ">" & x
+                change item i of result to y
+                change item j of result to x
+            end if  
+        end repeat
+    end repeat
+    reduce result starting 0 using 10 * accumulator + it
+    add it to checksum
+end repeat
+
+# TODO: solve quest 2 part 1
+say "ANSWER:", checksum
