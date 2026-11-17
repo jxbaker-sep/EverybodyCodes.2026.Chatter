@@ -1,0 +1,43 @@
+# Quest 3 — Part 1
+#
+# Run with:
+#     ./run.py 3 1 --example     # against part1.example.txt
+#     ./run.py 3 1               # against part1.txt
+#
+# Print the final answer using:
+#     say "ANSWER:", value
+# Anything else printed via `say` is ignored by run.py (treated as debug).
+
+use integers from "std:parser"
+use get_input from "../util/io"
+get_input
+map it using characters 5 to end of it # skip ISO-, else 'integers' results in negative
+map it using the result of integers it
+say it
+
+variable result is 0
+
+function raise takes number base to number exponent returns number is
+    variable total is 1
+    repeat exponent times
+        multiply total by base
+    end repeat
+    return total
+end function
+
+repeat with encoding in it
+    variable iso is item 1 of encoding
+    variable value is item 2 of encoding
+    variable digit is 0
+    repeat with exponent from 0 to 3
+        raise (iso mod 10) to exponent
+        add it * (value mod 10) to digit
+        divide iso by 10
+        divide value by 10
+    end repeat
+    say digit
+    add digit to result
+end repeat
+
+# TODO: solve quest 3 part 1
+say "ANSWER:", result
