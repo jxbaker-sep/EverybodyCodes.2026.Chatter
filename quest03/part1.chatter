@@ -35,7 +35,6 @@ repeat with encoding in it
         divide iso by 10
         divide value by 10
     end repeat
-    say digit
     add digit to result
 end repeat
 

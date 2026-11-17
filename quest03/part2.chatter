@@ -8,8 +8,38 @@
 #     say "ANSWER:", value
 # Anything else printed via `say` is ignored by run.py (treated as debug).
 
+use integers from "std:parser"
 use get_input from "../util/io"
-constant input is the result of get_input
+get_input
+map it using characters 5 to end of it # skip ISO-, else 'integers' results in negative
+map it using the result of integers it
 
-# TODO: solve quest 3 part 2
-say "ANSWER:", "TODO"
+variable result is 0
+
+function raise takes number base to number exponent returns number is
+    variable total is 1
+    repeat exponent times
+        multiply total by base
+    end repeat
+    return total
+end function
+
+repeat with encoding in it
+    variable iso is item 1 of encoding
+    variable value is item 2 of encoding
+    variable digit is 0
+    variable exponent is 0
+    repeat while value is greater than 0
+        raise (iso mod 10) to exponent
+        add it * (value mod 10) to digit
+        divide iso by 10
+        if iso is 0
+            change iso to item 1 of encoding
+        end if
+        divide value by 10
+        add 1 to exponent
+    end repeat
+    add digit to result
+end repeat
+
+say "ANSWER:", result
