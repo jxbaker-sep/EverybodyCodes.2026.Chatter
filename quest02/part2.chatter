@@ -1,15 +1,76 @@
-# Quest 2 — Part 2
-#
-# Run with:
-#     ./run.py 2 2 --example     # against part2.example.txt
-#     ./run.py 2 2               # against part2.txt
-#
-# Print the final answer using:
-#     say "ANSWER:", value
-# Anything else printed via `say` is ignored by run.py (treated as debug).
 
 use get_input from "../util/io"
-constant input is the result of get_input
+use parse, split from "std:string"
+use max from "std:math"
+use range, uniquify from "std:list"
+get_input
+map it using the result of split it on " "
+variable checksum is 0
 
-# TODO: solve quest 2 part 2
-say "ANSWER:", "TODO"
+function find_max takes unique list of string ordering returns number is
+    constant needles is empty list of number
+    repeat with order in ordering
+        parse character 1 of order
+        append it to needles
+        parse character 3 of order
+        append it to needles
+    end repeat
+    max needles
+    return it
+end function
+
+function normalize takes string input returns string is
+    if character 2 of input is "<"
+        return input
+    end if
+    return (character 3 of input) & "<" & (character 1 of input)
+end function
+
+# returns -1 if x < y or 1 if x > y
+function deduce_rule takes number x to number y with unique list of string ordering returns number is
+    if ordering contains x & "<" & y
+        return -1
+    else if ordering contains y & "<" & x
+        return 1
+    else
+        find_max ordering
+        constant n_max is it
+        repeat with z from 1 to n_max
+            if z is x or z is y
+                next repeat
+            end if
+            if ordering contains x & "<" & z and ordering contains z & "<" & y
+                return -1
+            else if  ordering contains y & "<" & z and ordering contains z & "<" & x
+                return 1
+            end if
+        end repeat
+    end if
+    fail "No deducation for " & x & ", " & y & " using " & ordering
+end function
+
+repeat with l_ordering in it
+    map l_ordering using the result of normalize it
+    uniquify it
+    constant ordering is it
+    find_max ordering
+    constant n_max is it
+    range 1 to n_max
+    constant result is it
+    repeat with i from 1 to n_max - 1
+        repeat with j from i + 1 to n_max
+            variable x is item i of result
+            variable y is item j of result
+            deduce_rule x to y with ordering
+            if it is -1
+                change item i of result to y
+                change item j of result to x
+            end if  
+        end repeat
+    end repeat
+    reduce result starting 0 using 10 * accumulator + it
+    add it to checksum
+end repeat
+
+say "ANSWER:", checksum
+# 3690348: length - incorrect, first character - incorrect
