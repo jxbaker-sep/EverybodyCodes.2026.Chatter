@@ -1,15 +1,65 @@
-# Quest 3 — Part 3
+# Quest 3 — Part 2
 #
 # Run with:
-#     ./run.py 3 3 --example     # against part3.example.txt
-#     ./run.py 3 3               # against part3.txt
+#     ./run.py 3 2 --example     # against part2.example.txt
+#     ./run.py 3 2               # against part2.txt
 #
 # Print the final answer using:
 #     say "ANSWER:", value
 # Anything else printed via `say` is ignored by run.py (treated as debug).
 
+use integers from "std:parser"
 use get_input from "../util/io"
-constant input is the result of get_input
+get_input
+map it using characters 6 to end of it # skip ISO2-, else 'integers' results in negative
+map it using the result of integers it
 
-# TODO: solve quest 3 part 3
-say "ANSWER:", "TODO"
+variable sum_of_digits is 0
+
+function raise takes number base to number exponent returns number is
+    variable total is 1
+    repeat exponent times
+        multiply total by base
+    end repeat
+    return total
+end function
+
+function decode takes number original_value with_iso number original_iso returns number is
+    variable iso is original_iso
+    variable value is original_value
+    variable digit is 0
+    variable exponent is 0
+    repeat while value is greater than 0
+        raise (iso mod 10) to exponent
+        add it * (value mod 10) to digit
+        divide iso by 10
+        if iso is 0
+            change iso to original_iso
+        end if
+        divide value by 10
+        add 1 to exponent
+    end repeat
+    return digit
+end function
+
+function is_smallest_representation takes number value with_iso number iso returns boolean is
+    decode value with_iso iso
+    constant needle is it 
+    repeat with n from 1 to value - 1
+        decode n with_iso iso
+        if it is needle
+            return false
+        end if
+    end repeat
+    return true
+end function
+
+repeat with encoding in it
+    constant digit is the result of decode item 2 of encoding with_iso item 1 of encoding
+    is_smallest_representation item 2 of encoding with_iso item 1 of encoding
+    if it
+        add digit to sum_of_digits
+    end if
+end repeat
+
+say "ANSWER:", sum_of_digits
