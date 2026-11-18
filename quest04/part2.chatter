@@ -8,8 +8,37 @@
 #     say "ANSWER:", value
 # Anything else printed via `say` is ignored by run.py (treated as debug).
 
+use max from "std:math"
+use range from "std:list"
+use integers from "std:parser"
 use get_input from "../util/io"
-constant input is the result of get_input
 
-# TODO: solve quest 4 part 2
-say "ANSWER:", "TODO"
+get_input
+map it using the result of integers it
+constant standings is it
+
+map standings using item 1 of it
+max it
+constant highest_id is it
+
+range 1 to highest_id
+map it using 0
+constant rankings is it
+
+constant per_part_increment is -100_000_000
+
+repeat with standing in standings
+    constant id is item 1 of standing
+    constant time is item 4 of standing
+    add per_part_increment + time to item id of rankings
+end repeat
+
+sort rankings
+map it using -(-it mod per_part_increment)
+
+variable result is 0
+repeat with index from 1 to length of it
+    add index * item index of it to result
+end repeat
+
+say "ANSWER:", result

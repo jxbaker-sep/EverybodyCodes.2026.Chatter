@@ -1,0 +1,1851 @@
+$ /Users/jxbaker/dev/chatter-lang/node_modules/.bin/ts-node /Users/jxbaker/dev/chatter-lang/src/index.ts /Users/jxbaker/dev/EverybodyCodes.2026.Chatter/quest04/part3.chatter /Users/jxbaker/dev/EverybodyCodes.2026.Chatter/quest04/part3.example.3.txt
+  [debug] 
+  [debug] Quest 1 Part 1
+  [debug] id= 129 time= 101 points= 50
+  [debug] id= 137 time= 110 points= 49
+  [debug] id= 183 time= 113 points= 48
+  [debug] id= 116 time= 114 points= 47
+  [debug] id= 245 time= 127 points= 46
+  [debug] id= 25 time= 128 points= 45
+  [debug] id= 239 time= 146 points= 44
+  [debug] id= 16 time= 150 points= 43
+  [debug] id= 178 time= 151 points= 42
+  [debug] id= 46 time= 152 points= 41
+  [debug] id= 204 time= 153 points= 40
+  [debug] id= 216 time= 162 points= 39
+  [debug] id= 149 time= 177 points= 38
+  [debug] id= 144 time= 193 points= 37
+  [debug] id= 205 time= 194 points= 36
+  [debug] id= 20 time= 199 points= 35
+  [debug] id= 223 time= 209 points= 34
+  [debug] id= 131 time= 212 points= 33
+  [debug] id= 185 time= 215 points= 32
+  [debug] id= 166 time= 217 points= 31
+  [debug] id= 93 time= 220 points= 30
+  [debug] id= 255 time= 226 points= 29
+  [debug] id= 243 time= 231 points= 28
+  [debug] id= 95 time= 242 points= 27
+  [debug] id= 220 time= 243 points= 26
+  [debug] id= 127 time= 253 points= 25
+  [debug] id= 33 time= 254 points= 24
+  [debug] id= 225 time= 255 points= 23
+  [debug] id= 231 time= 259 points= 22
+  [debug] id= 65 time= 260 points= 21
+  [debug] id= 96 time= 268 points= 20
+  [debug] id= 161 time= 271 points= 19
+  [debug] id= 162 time= 273 points= 18
+  [debug] id= 35 time= 278 points= 17
+  [debug] id= 241 time= 284 points= 16
+  [debug] id= 67 time= 285 points= 15
+  [debug] id= 100 time= 287 points= 14
+  [debug] id= 97 time= 292 points= 13
+  [debug] id= 248 time= 292 points= 13
+  [debug] id= 242 time= 300 points= 11
+  [debug] id= 94 time= 301 points= 10
+  [debug] id= 142 time= 306 points= 9
+  [debug] id= 39 time= 310 points= 8
+  [debug] id= 85 time= 310 points= 8
+  [debug] id= 48 time= 316 points= 6
+  [debug] id= 102 time= 318 points= 5
+  [debug] id= 118 time= 321 points= 4
+  [debug] id= 175 time= 321 points= 4
+  [debug] id= 202 time= 322 points= 2
+  [debug] id= 146 time= 350 points= 1
+  [debug] 
+  [debug] Quest 1 Part 2
+  [debug] id= 84 time= 564 points= 100
+  [debug] id= 142 time= 783 points= 99
+  [debug] id= 156 time= 787 points= 98
+  [debug] id= 187 time= 811 points= 97
+  [debug] id= 76 time= 850 points= 96
+  [debug] id= 245 time= 956 points= 95
+  [debug] id= 109 time= 969 points= 94
+  [debug] id= 241 time= 970 points= 93
+  [debug] id= 19 time= 1158 points= 92
+  [debug] id= 253 time= 1163 points= 91
+  [debug] id= 79 time= 1224 points= 90
+  [debug] id= 51 time= 1227 points= 89
+  [debug] id= 115 time= 1232 points= 88
+  [debug] id= 27 time= 1234 points= 87
+  [debug] id= 143 time= 1306 points= 86
+  [debug] id= 71 time= 1405 points= 85
+  [debug] id= 1 time= 1622 points= 84
+  [debug] id= 37 time= 1679 points= 83
+  [debug] id= 172 time= 1685 points= 82
+  [debug] 
+  [debug] Quest 1 Part 3
+  [debug] id= 71 time= 2212 points= 150
+  [debug] 
+  [debug] Quest 2 Part 1
+  [debug] id= 1 time= 105 points= 50
+  [debug] id= 48 time= 107 points= 49
+  [debug] id= 164 time= 108 points= 48
+  [debug] id= 39 time= 110 points= 47
+  [debug] id= 91 time= 112 points= 46
+  [debug] id= 74 time= 113 points= 45
+  [debug] id= 84 time= 113 points= 45
+  [debug] id= 111 time= 113 points= 45
+  [debug] id= 92 time= 114 points= 42
+  [debug] id= 205 time= 123 points= 41
+  [debug] id= 135 time= 129 points= 40
+  [debug] id= 158 time= 146 points= 39
+  [debug] id= 40 time= 147 points= 38
+  [debug] id= 51 time= 148 points= 37
+  [debug] id= 206 time= 149 points= 36
+  [debug] id= 129 time= 151 points= 35
+  [debug] id= 139 time= 157 points= 34
+  [debug] id= 133 time= 165 points= 33
+  [debug] id= 112 time= 167 points= 32
+  [debug] id= 18 time= 168 points= 31
+  [debug] id= 66 time= 172 points= 30
+  [debug] id= 72 time= 174 points= 29
+  [debug] id= 219 time= 176 points= 28
+  [debug] id= 21 time= 178 points= 27
+  [debug] id= 63 time= 181 points= 26
+  [debug] id= 6 time= 185 points= 25
+  [debug] id= 252 time= 185 points= 25
+  [debug] id= 237 time= 190 points= 23
+  [debug] id= 248 time= 197 points= 22
+  [debug] id= 163 time= 199 points= 21
+  [debug] id= 17 time= 200 points= 20
+  [debug] id= 256 time= 204 points= 19
+  [debug] id= 24 time= 209 points= 18
+  [debug] id= 151 time= 209 points= 18
+  [debug] id= 199 time= 213 points= 16
+  [debug] id= 116 time= 214 points= 15
+  [debug] id= 107 time= 219 points= 14
+  [debug] id= 35 time= 221 points= 13
+  [debug] id= 141 time= 222 points= 12
+  [debug] id= 75 time= 223 points= 11
+  [debug] id= 83 time= 223 points= 11
+  [debug] id= 190 time= 226 points= 9
+  [debug] id= 43 time= 227 points= 8
+  [debug] id= 128 time= 227 points= 8
+  [debug] id= 88 time= 230 points= 6
+  [debug] id= 50 time= 231 points= 5
+  [debug] id= 192 time= 237 points= 4
+  [debug] id= 223 time= 237 points= 4
+  [debug] id= 204 time= 240 points= 2
+  [debug] id= 217 time= 240 points= 2
+  [debug] 
+  [debug] Quest 2 Part 2
+  [debug] id= 90 time= 359 points= 100
+  [debug] id= 111 time= 401 points= 99
+  [debug] id= 192 time= 411 points= 98
+  [debug] id= 33 time= 575 points= 97
+  [debug] id= 21 time= 581 points= 96
+  [debug] id= 239 time= 710 points= 95
+  [debug] id= 158 time= 777 points= 94
+  [debug] id= 26 time= 991 points= 93
+  [debug] id= 219 time= 1064 points= 92
+  [debug] id= 187 time= 1073 points= 91
+  [debug] id= 53 time= 1076 points= 90
+  [debug] id= 128 time= 1196 points= 89
+  [debug] id= 28 time= 1200 points= 88
+  [debug] id= 212 time= 1314 points= 87
+  [debug] id= 225 time= 1348 points= 86
+  [debug] id= 78 time= 1436 points= 85
+  [debug] id= 181 time= 1523 points= 84
+  [debug] id= 42 time= 1551 points= 83
+  [debug] id= 195 time= 1652 points= 82
+  [debug] id= 104 time= 1751 points= 81
+  [debug] id= 253 time= 1771 points= 80
+  [debug] id= 98 time= 1846 points= 79
+  [debug] 
+  [debug] Quest 2 Part 3
+  [debug] id= 212 time= 1607 points= 150
+  [debug] id= 219 time= 1712 points= 149
+  [debug] 
+  [debug] Quest 3 Part 1
+  [debug] id= 56 time= 102 points= 50
+  [debug] id= 51 time= 104 points= 49
+  [debug] id= 202 time= 106 points= 48
+  [debug] id= 24 time= 113 points= 47
+  [debug] id= 204 time= 119 points= 46
+  [debug] id= 216 time= 122 points= 45
+  [debug] id= 142 time= 125 points= 44
+  [debug] id= 157 time= 147 points= 43
+  [debug] id= 208 time= 149 points= 42
+  [debug] id= 125 time= 150 points= 41
+  [debug] id= 139 time= 151 points= 40
+  [debug] id= 183 time= 151 points= 40
+  [debug] id= 71 time= 152 points= 38
+  [debug] id= 165 time= 153 points= 37
+  [debug] id= 67 time= 155 points= 36
+  [debug] id= 229 time= 155 points= 36
+  [debug] id= 95 time= 156 points= 34
+  [debug] id= 8 time= 157 points= 33
+  [debug] id= 215 time= 168 points= 32
+  [debug] id= 31 time= 169 points= 31
+  [debug] id= 82 time= 172 points= 30
+  [debug] id= 113 time= 177 points= 29
+  [debug] id= 66 time= 178 points= 28
+  [debug] id= 42 time= 179 points= 27
+  [debug] id= 40 time= 184 points= 26
+  [debug] id= 200 time= 188 points= 25
+  [debug] id= 106 time= 192 points= 24
+  [debug] id= 188 time= 193 points= 23
+  [debug] id= 7 time= 199 points= 22
+  [debug] id= 112 time= 200 points= 21
+  [debug] id= 254 time= 204 points= 20
+  [debug] id= 186 time= 208 points= 19
+  [debug] id= 230 time= 208 points= 19
+  [debug] id= 166 time= 214 points= 17
+  [debug] id= 57 time= 226 points= 16
+  [debug] id= 30 time= 232 points= 15
+  [debug] id= 73 time= 233 points= 14
+  [debug] id= 170 time= 235 points= 13
+  [debug] id= 163 time= 245 points= 12
+  [debug] id= 120 time= 251 points= 11
+  [debug] id= 87 time= 253 points= 10
+  [debug] id= 27 time= 254 points= 9
+  [debug] id= 96 time= 257 points= 8
+  [debug] id= 43 time= 258 points= 7
+  [debug] id= 25 time= 259 points= 6
+  [debug] id= 54 time= 260 points= 5
+  [debug] id= 213 time= 260 points= 5
+  [debug] id= 22 time= 261 points= 3
+  [debug] id= 49 time= 269 points= 2
+  [debug] id= 214 time= 271 points= 1
+  [debug] 
+  [debug] Quest 3 Part 2
+  [debug] id= 120 time= 569 points= 100
+  [debug] id= 250 time= 636 points= 99
+  [debug] id= 73 time= 748 points= 98
+  [debug] id= 253 time= 927 points= 97
+  [debug] id= 195 time= 1144 points= 96
+  [debug] id= 36 time= 1184 points= 95
+  [debug] id= 189 time= 1205 points= 94
+  [debug] id= 108 time= 1243 points= 93
+  [debug] id= 159 time= 1282 points= 92
+  [debug] id= 146 time= 1543 points= 91
+  [debug] id= 181 time= 1607 points= 90
+  [debug] id= 93 time= 1862 points= 89
+  [debug] 
+  [debug] Quest 3 Part 3
+  [debug] id= 36 time= 1433 points= 150
+  [debug] 
+  [debug] Quest 4 Part 1
+  [debug] id= 235 time= 100 points= 50
+  [debug] id= 209 time= 103 points= 49
+  [debug] id= 123 time= 110 points= 48
+  [debug] id= 153 time= 114 points= 47
+  [debug] id= 249 time= 118 points= 46
+  [debug] id= 176 time= 121 points= 45
+  [debug] id= 61 time= 130 points= 44
+  [debug] id= 248 time= 136 points= 43
+  [debug] id= 113 time= 141 points= 42
+  [debug] id= 62 time= 144 points= 41
+  [debug] id= 44 time= 145 points= 40
+  [debug] id= 12 time= 154 points= 39
+  [debug] id= 3 time= 163 points= 38
+  [debug] id= 10 time= 168 points= 37
+  [debug] id= 236 time= 168 points= 37
+  [debug] id= 228 time= 173 points= 35
+  [debug] id= 92 time= 176 points= 34
+  [debug] id= 160 time= 180 points= 33
+  [debug] id= 13 time= 185 points= 32
+  [debug] id= 152 time= 189 points= 31
+  [debug] id= 251 time= 189 points= 31
+  [debug] id= 184 time= 199 points= 29
+  [debug] id= 181 time= 202 points= 28
+  [debug] id= 189 time= 202 points= 28
+  [debug] id= 256 time= 207 points= 26
+  [debug] id= 247 time= 210 points= 25
+  [debug] id= 119 time= 215 points= 24
+  [debug] id= 67 time= 217 points= 23
+  [debug] id= 108 time= 222 points= 22
+  [debug] id= 51 time= 230 points= 21
+  [debug] id= 81 time= 233 points= 20
+  [debug] id= 24 time= 236 points= 19
+  [debug] id= 190 time= 239 points= 18
+  [debug] id= 166 time= 255 points= 17
+  [debug] id= 11 time= 257 points= 16
+  [debug] id= 56 time= 258 points= 15
+  [debug] id= 238 time= 268 points= 14
+  [debug] id= 214 time= 269 points= 13
+  [debug] id= 132 time= 271 points= 12
+  [debug] id= 34 time= 275 points= 11
+  [debug] id= 16 time= 278 points= 10
+  [debug] id= 250 time= 281 points= 9
+  [debug] id= 35 time= 283 points= 8
+  [debug] id= 74 time= 287 points= 7
+  [debug] id= 88 time= 291 points= 6
+  [debug] id= 114 time= 295 points= 5
+  [debug] id= 103 time= 310 points= 4
+  [debug] id= 254 time= 314 points= 3
+  [debug] id= 120 time= 317 points= 2
+  [debug] id= 17 time= 318 points= 1
+  [debug] id= 66 time= 318 points= 1
+  [debug] 
+  [debug] Quest 4 Part 2
+  [debug] id= 92 time= 320 points= 100
+  [debug] id= 160 time= 322 points= 99
+  [debug] id= 123 time= 500 points= 98
+  [debug] id= 256 time= 733 points= 97
+  [debug] id= 252 time= 798 points= 96
+  [debug] id= 99 time= 814 points= 95
+  [debug] id= 219 time= 944 points= 94
+  [debug] id= 90 time= 959 points= 93
+  [debug] id= 57 time= 1030 points= 92
+  [debug] id= 178 time= 1034 points= 91
+  [debug] id= 61 time= 1052 points= 90
+  [debug] id= 127 time= 1090 points= 89
+  [debug] id= 52 time= 1143 points= 88
+  [debug] id= 109 time= 1161 points= 87
+  [debug] id= 73 time= 1163 points= 86
+  [debug] id= 71 time= 1175 points= 85
+  [debug] id= 19 time= 1251 points= 84
+  [debug] id= 195 time= 1258 points= 83
+  [debug] id= 205 time= 1364 points= 82
+  [debug] id= 100 time= 1395 points= 81
+  [debug] id= 154 time= 1428 points= 80
+  [debug] id= 183 time= 1474 points= 79
+  [debug] id= 48 time= 1489 points= 78
+  [debug] id= 140 time= 1690 points= 77
+  [debug] 
+  [debug] Quest 4 Part 3
+  [debug] id= 160 time= 1111 points= 150
+  [debug] id= 127 time= 1442 points= 149
+  [debug] id= 57 time= 1580 points= 148
+  [debug] 
+  [debug] Quest 5 Part 1
+  [debug] id= 54 time= 101 points= 50
+  [debug] id= 175 time= 106 points= 49
+  [debug] id= 16 time= 107 points= 48
+  [debug] id= 243 time= 107 points= 48
+  [debug] id= 56 time= 108 points= 46
+  [debug] id= 125 time= 111 points= 45
+  [debug] id= 127 time= 111 points= 45
+  [debug] id= 215 time= 119 points= 43
+  [debug] id= 30 time= 122 points= 42
+  [debug] id= 55 time= 131 points= 41
+  [debug] id= 31 time= 133 points= 40
+  [debug] id= 108 time= 133 points= 40
+  [debug] id= 19 time= 138 points= 38
+  [debug] id= 143 time= 138 points= 38
+  [debug] id= 142 time= 141 points= 36
+  [debug] id= 251 time= 143 points= 35
+  [debug] id= 228 time= 145 points= 34
+  [debug] id= 252 time= 147 points= 33
+  [debug] id= 9 time= 148 points= 32
+  [debug] id= 123 time= 149 points= 31
+  [debug] id= 212 time= 149 points= 31
+  [debug] id= 189 time= 156 points= 29
+  [debug] id= 83 time= 157 points= 28
+  [debug] id= 101 time= 158 points= 27
+  [debug] id= 93 time= 159 points= 26
+  [debug] id= 27 time= 172 points= 25
+  [debug] id= 84 time= 173 points= 24
+  [debug] id= 177 time= 197 points= 23
+  [debug] id= 44 time= 200 points= 22
+  [debug] id= 147 time= 203 points= 21
+  [debug] id= 191 time= 211 points= 20
+  [debug] id= 157 time= 216 points= 19
+  [debug] id= 89 time= 222 points= 18
+  [debug] id= 253 time= 225 points= 17
+  [debug] id= 61 time= 234 points= 16
+  [debug] id= 220 time= 237 points= 15
+  [debug] id= 81 time= 238 points= 14
+  [debug] id= 240 time= 238 points= 14
+  [debug] id= 111 time= 239 points= 12
+  [debug] id= 43 time= 241 points= 11
+  [debug] id= 99 time= 247 points= 10
+  [debug] id= 75 time= 248 points= 9
+  [debug] id= 163 time= 256 points= 8
+  [debug] id= 172 time= 262 points= 7
+  [debug] id= 187 time= 267 points= 6
+  [debug] id= 244 time= 273 points= 5
+  [debug] id= 250 time= 278 points= 4
+  [debug] id= 235 time= 284 points= 3
+  [debug] id= 109 time= 290 points= 2
+  [debug] id= 197 time= 291 points= 1
+  [debug] 
+  [debug] Quest 5 Part 2
+  [debug] id= 123 time= 580 points= 100
+  [debug] id= 84 time= 633 points= 99
+  [debug] id= 60 time= 714 points= 98
+  [debug] id= 117 time= 930 points= 97
+  [debug] id= 197 time= 935 points= 96
+  [debug] id= 77 time= 1009 points= 95
+  [debug] id= 181 time= 1027 points= 94
+  [debug] id= 79 time= 1303 points= 93
+  [debug] id= 256 time= 1303 points= 93
+  [debug] id= 190 time= 1314 points= 91
+  [debug] id= 71 time= 1356 points= 90
+  [debug] id= 230 time= 1402 points= 89
+  [debug] id= 113 time= 1430 points= 88
+  [debug] id= 82 time= 1439 points= 87
+  [debug] id= 133 time= 1523 points= 86
+  [debug] id= 41 time= 1689 points= 85
+  [debug] id= 2 time= 1706 points= 84
+  [debug] id= 199 time= 1839 points= 83
+  [debug] 
+  [debug] Quest 5 Part 3
+  [debug] id= 123 time= 911 points= 150
+  [debug] id= 84 time= 1527 points= 149
+  [debug] id= 2 time= 1892 points= 148
+  [debug] id= 256 time= 2242 points= 147
+  [debug] id= 133 time= 2361 points= 146
+  [debug] 
+  [debug] Quest 6 Part 1
+  [debug] id= 243 time= 100 points= 50
+  [debug] id= 106 time= 105 points= 49
+  [debug] id= 22 time= 109 points= 48
+  [debug] id= 35 time= 111 points= 47
+  [debug] id= 204 time= 111 points= 47
+  [debug] id= 254 time= 111 points= 47
+  [debug] id= 38 time= 126 points= 44
+  [debug] id= 194 time= 128 points= 43
+  [debug] id= 161 time= 147 points= 42
+  [debug] id= 57 time= 148 points= 41
+  [debug] id= 96 time= 148 points= 41
+  [debug] id= 30 time= 150 points= 39
+  [debug] id= 121 time= 164 points= 38
+  [debug] id= 157 time= 165 points= 37
+  [debug] id= 177 time= 165 points= 37
+  [debug] id= 173 time= 171 points= 35
+  [debug] id= 193 time= 174 points= 34
+  [debug] id= 114 time= 185 points= 33
+  [debug] id= 190 time= 186 points= 32
+  [debug] id= 147 time= 190 points= 31
+  [debug] id= 97 time= 194 points= 30
+  [debug] id= 137 time= 196 points= 29
+  [debug] id= 231 time= 199 points= 28
+  [debug] id= 212 time= 200 points= 27
+  [debug] id= 101 time= 210 points= 26
+  [debug] id= 109 time= 217 points= 25
+  [debug] id= 31 time= 223 points= 24
+  [debug] id= 135 time= 224 points= 23
+  [debug] id= 6 time= 226 points= 22
+  [debug] id= 45 time= 234 points= 21
+  [debug] id= 188 time= 234 points= 21
+  [debug] id= 103 time= 240 points= 19
+  [debug] id= 180 time= 240 points= 19
+  [debug] id= 119 time= 248 points= 17
+  [debug] id= 217 time= 248 points= 17
+  [debug] id= 255 time= 255 points= 15
+  [debug] id= 91 time= 256 points= 14
+  [debug] id= 94 time= 263 points= 13
+  [debug] id= 75 time= 278 points= 12
+  [debug] id= 12 time= 283 points= 11
+  [debug] id= 44 time= 284 points= 10
+  [debug] id= 198 time= 284 points= 10
+  [debug] id= 211 time= 284 points= 10
+  [debug] id= 241 time= 306 points= 7
+  [debug] id= 86 time= 310 points= 6
+  [debug] id= 183 time= 315 points= 5
+  [debug] id= 162 time= 317 points= 4
+  [debug] id= 166 time= 320 points= 3
+  [debug] id= 134 time= 326 points= 2
+  [debug] id= 54 time= 329 points= 1
+  [debug] 
+  [debug] Quest 6 Part 2
+  [debug] id= 242 time= 614 points= 100
+  [debug] id= 221 time= 735 points= 99
+  [debug] id= 83 time= 805 points= 98
+  [debug] id= 57 time= 884 points= 97
+  [debug] id= 171 time= 897 points= 96
+  [debug] id= 5 time= 977 points= 95
+  [debug] id= 249 time= 984 points= 94
+  [debug] id= 98 time= 1005 points= 93
+  [debug] id= 163 time= 1028 points= 92
+  [debug] id= 209 time= 1114 points= 91
+  [debug] id= 160 time= 1146 points= 90
+  [debug] id= 45 time= 1170 points= 89
+  [debug] id= 1 time= 1260 points= 88
+  [debug] id= 89 time= 1284 points= 87
+  [debug] id= 141 time= 1295 points= 86
+  [debug] id= 225 time= 1327 points= 85
+  [debug] id= 34 time= 1379 points= 84
+  [debug] id= 58 time= 1384 points= 83
+  [debug] id= 213 time= 1441 points= 82
+  [debug] id= 184 time= 1574 points= 81
+  [debug] id= 152 time= 1668 points= 80
+  [debug] 
+  [debug] Quest 6 Part 3
+  [debug] id= 5 time= 1330 points= 150
+  [debug] id= 34 time= 1527 points= 149
+  [debug] id= 57 time= 1650 points= 148
+  [debug] id= 213 time= 1904 points= 147
+  [debug] 
+  [debug] Quest 7 Part 1
+  [debug] id= 159 time= 103 points= 50
+  [debug] id= 222 time= 105 points= 49
+  [debug] id= 174 time= 109 points= 48
+  [debug] id= 197 time= 109 points= 48
+  [debug] id= 242 time= 112 points= 46
+  [debug] id= 227 time= 114 points= 45
+  [debug] id= 173 time= 117 points= 44
+  [debug] id= 121 time= 118 points= 43
+  [debug] id= 22 time= 119 points= 42
+  [debug] id= 52 time= 122 points= 41
+  [debug] id= 59 time= 125 points= 40
+  [debug] id= 136 time= 126 points= 39
+  [debug] id= 115 time= 129 points= 38
+  [debug] id= 86 time= 133 points= 37
+  [debug] id= 213 time= 137 points= 36
+  [debug] id= 11 time= 139 points= 35
+  [debug] id= 17 time= 139 points= 35
+  [debug] id= 189 time= 140 points= 33
+  [debug] id= 135 time= 141 points= 32
+  [debug] id= 55 time= 149 points= 31
+  [debug] id= 250 time= 153 points= 30
+  [debug] id= 233 time= 155 points= 29
+  [debug] id= 183 time= 159 points= 28
+  [debug] id= 231 time= 167 points= 27
+  [debug] id= 1 time= 172 points= 26
+  [debug] id= 87 time= 183 points= 25
+  [debug] id= 170 time= 203 points= 24
+  [debug] id= 67 time= 207 points= 23
+  [debug] id= 162 time= 210 points= 22
+  [debug] id= 152 time= 215 points= 21
+  [debug] id= 33 time= 219 points= 20
+  [debug] id= 226 time= 225 points= 19
+  [debug] id= 144 time= 231 points= 18
+  [debug] id= 217 time= 231 points= 18
+  [debug] id= 81 time= 235 points= 16
+  [debug] id= 60 time= 236 points= 15
+  [debug] id= 251 time= 236 points= 15
+  [debug] id= 108 time= 246 points= 13
+  [debug] id= 146 time= 254 points= 12
+  [debug] id= 247 time= 260 points= 11
+  [debug] id= 131 time= 262 points= 10
+  [debug] id= 35 time= 264 points= 9
+  [debug] id= 181 time= 265 points= 8
+  [debug] id= 48 time= 267 points= 7
+  [debug] id= 137 time= 268 points= 6
+  [debug] id= 236 time= 268 points= 6
+  [debug] id= 112 time= 272 points= 4
+  [debug] id= 168 time= 274 points= 3
+  [debug] id= 203 time= 275 points= 2
+  [debug] id= 237 time= 275 points= 2
+  [debug] 
+  [debug] Quest 7 Part 2
+  [debug] id= 251 time= 362 points= 100
+  [debug] id= 163 time= 711 points= 99
+  [debug] id= 220 time= 763 points= 98
+  [debug] id= 148 time= 1031 points= 97
+  [debug] id= 83 time= 1061 points= 96
+  [debug] id= 1 time= 1064 points= 95
+  [debug] id= 138 time= 1129 points= 94
+  [debug] id= 139 time= 1190 points= 93
+  [debug] id= 229 time= 1223 points= 92
+  [debug] id= 21 time= 1394 points= 91
+  [debug] id= 178 time= 1403 points= 90
+  [debug] id= 58 time= 1418 points= 89
+  [debug] id= 46 time= 1488 points= 88
+  [debug] id= 244 time= 1653 points= 87
+  [debug] id= 201 time= 1657 points= 86
+  [debug] id= 219 time= 1786 points= 85
+  [debug] id= 188 time= 1827 points= 84
+  [debug] 
+  [debug] Quest 7 Part 3
+  [debug] id= 148 time= 1773 points= 150
+  [debug] 
+  [debug] Quest 8 Part 1
+  [debug] id= 193 time= 105 points= 50
+  [debug] id= 248 time= 109 points= 49
+  [debug] id= 64 time= 110 points= 48
+  [debug] id= 94 time= 113 points= 47
+  [debug] id= 210 time= 122 points= 46
+  [debug] id= 130 time= 123 points= 45
+  [debug] id= 254 time= 124 points= 44
+  [debug] id= 36 time= 127 points= 43
+  [debug] id= 106 time= 142 points= 42
+  [debug] id= 53 time= 144 points= 41
+  [debug] id= 146 time= 146 points= 40
+  [debug] id= 124 time= 148 points= 39
+  [debug] id= 108 time= 152 points= 38
+  [debug] id= 62 time= 159 points= 37
+  [debug] id= 9 time= 161 points= 36
+  [debug] id= 74 time= 170 points= 35
+  [debug] id= 231 time= 171 points= 34
+  [debug] id= 147 time= 173 points= 33
+  [debug] id= 8 time= 174 points= 32
+  [debug] id= 59 time= 181 points= 31
+  [debug] id= 174 time= 191 points= 30
+  [debug] id= 39 time= 195 points= 29
+  [debug] id= 163 time= 195 points= 29
+  [debug] id= 256 time= 204 points= 27
+  [debug] id= 54 time= 209 points= 26
+  [debug] id= 148 time= 217 points= 25
+  [debug] id= 42 time= 220 points= 24
+  [debug] id= 77 time= 220 points= 24
+  [debug] id= 18 time= 223 points= 22
+  [debug] id= 200 time= 223 points= 22
+  [debug] id= 221 time= 234 points= 20
+  [debug] id= 158 time= 235 points= 19
+  [debug] id= 229 time= 235 points= 19
+  [debug] id= 111 time= 243 points= 17
+  [debug] id= 245 time= 244 points= 16
+  [debug] id= 224 time= 247 points= 15
+  [debug] id= 80 time= 252 points= 14
+  [debug] id= 144 time= 259 points= 13
+  [debug] id= 57 time= 263 points= 12
+  [debug] id= 84 time= 265 points= 11
+  [debug] id= 69 time= 266 points= 10
+  [debug] id= 31 time= 270 points= 9
+  [debug] id= 109 time= 274 points= 8
+  [debug] id= 10 time= 276 points= 7
+  [debug] id= 184 time= 283 points= 6
+  [debug] id= 55 time= 284 points= 5
+  [debug] id= 234 time= 284 points= 5
+  [debug] id= 26 time= 285 points= 3
+  [debug] id= 72 time= 285 points= 3
+  [debug] id= 71 time= 286 points= 1
+  [debug] 
+  [debug] Quest 8 Part 2
+  [debug] id= 62 time= 404 points= 100
+  [debug] id= 57 time= 468 points= 99
+  [debug] id= 16 time= 482 points= 98
+  [debug] id= 194 time= 918 points= 97
+  [debug] id= 19 time= 936 points= 96
+  [debug] id= 3 time= 1019 points= 95
+  [debug] id= 205 time= 1043 points= 94
+  [debug] id= 54 time= 1088 points= 93
+  [debug] id= 11 time= 1104 points= 92
+  [debug] id= 168 time= 1176 points= 91
+  [debug] id= 204 time= 1186 points= 90
+  [debug] id= 223 time= 1204 points= 89
+  [debug] id= 153 time= 1210 points= 88
+  [debug] id= 167 time= 1227 points= 87
+  [debug] id= 89 time= 1242 points= 86
+  [debug] id= 236 time= 1242 points= 86
+  [debug] id= 181 time= 1313 points= 84
+  [debug] id= 17 time= 1343 points= 83
+  [debug] id= 67 time= 1416 points= 82
+  [debug] id= 131 time= 1491 points= 81
+  [debug] id= 190 time= 1517 points= 80
+  [debug] id= 23 time= 1532 points= 79
+  [debug] id= 120 time= 1596 points= 78
+  [debug] id= 85 time= 1636 points= 77
+  [debug] id= 90 time= 1774 points= 76
+  [debug] id= 13 time= 1818 points= 75
+  [debug] 
+  [debug] Quest 8 Part 3
+  [debug] id= 205 time= 1454 points= 150
+  [debug] id= 168 time= 1938 points= 149
+  [debug] 
+  [debug] Quest 9 Part 1
+  [debug] id= 225 time= 102 points= 50
+  [debug] id= 21 time= 105 points= 49
+  [debug] id= 20 time= 110 points= 48
+  [debug] id= 34 time= 112 points= 47
+  [debug] id= 116 time= 115 points= 46
+  [debug] id= 233 time= 123 points= 45
+  [debug] id= 76 time= 136 points= 44
+  [debug] id= 29 time= 137 points= 43
+  [debug] id= 12 time= 139 points= 42
+  [debug] id= 112 time= 143 points= 41
+  [debug] id= 43 time= 147 points= 40
+  [debug] id= 104 time= 148 points= 39
+  [debug] id= 63 time= 152 points= 38
+  [debug] id= 204 time= 152 points= 38
+  [debug] id= 230 time= 154 points= 36
+  [debug] id= 15 time= 155 points= 35
+  [debug] id= 92 time= 156 points= 34
+  [debug] id= 61 time= 158 points= 33
+  [debug] id= 90 time= 158 points= 33
+  [debug] id= 56 time= 159 points= 31
+  [debug] id= 8 time= 165 points= 30
+  [debug] id= 26 time= 165 points= 30
+  [debug] id= 212 time= 175 points= 28
+  [debug] id= 78 time= 176 points= 27
+  [debug] id= 102 time= 177 points= 26
+  [debug] id= 123 time= 177 points= 26
+  [debug] id= 118 time= 179 points= 24
+  [debug] id= 163 time= 182 points= 23
+  [debug] id= 205 time= 195 points= 22
+  [debug] id= 164 time= 200 points= 21
+  [debug] id= 251 time= 202 points= 20
+  [debug] id= 182 time= 209 points= 19
+  [debug] id= 138 time= 211 points= 18
+  [debug] id= 1 time= 221 points= 17
+  [debug] id= 127 time= 221 points= 17
+  [debug] id= 216 time= 224 points= 15
+  [debug] id= 131 time= 225 points= 14
+  [debug] id= 60 time= 231 points= 13
+  [debug] id= 145 time= 231 points= 13
+  [debug] id= 198 time= 245 points= 11
+  [debug] id= 168 time= 246 points= 10
+  [debug] id= 88 time= 249 points= 9
+  [debug] id= 214 time= 252 points= 8
+  [debug] id= 75 time= 254 points= 7
+  [debug] id= 10 time= 256 points= 6
+  [debug] id= 86 time= 258 points= 5
+  [debug] id= 108 time= 265 points= 4
+  [debug] id= 190 time= 268 points= 3
+  [debug] id= 247 time= 272 points= 2
+  [debug] id= 206 time= 275 points= 1
+  [debug] 
+  [debug] Quest 9 Part 2
+  [debug] id= 20 time= 227 points= 100
+  [debug] id= 10 time= 524 points= 99
+  [debug] id= 79 time= 537 points= 98
+  [debug] id= 61 time= 632 points= 97
+  [debug] id= 138 time= 703 points= 96
+  [debug] id= 123 time= 757 points= 95
+  [debug] id= 181 time= 794 points= 94
+  [debug] id= 27 time= 909 points= 93
+  [debug] id= 92 time= 1027 points= 92
+  [debug] id= 238 time= 1034 points= 91
+  [debug] id= 41 time= 1087 points= 90
+  [debug] id= 57 time= 1153 points= 89
+  [debug] id= 9 time= 1198 points= 88
+  [debug] id= 74 time= 1230 points= 87
+  [debug] id= 53 time= 1358 points= 86
+  [debug] id= 165 time= 1384 points= 85
+  [debug] id= 37 time= 1407 points= 84
+  [debug] 
+  [debug] Quest 9 Part 3
+  [debug] id= 123 time= 913 points= 150
+  [debug] id= 138 time= 987 points= 149
+  [debug] 
+  [debug] Quest 10 Part 1
+  [debug] id= 69 time= 109 points= 50
+  [debug] id= 221 time= 110 points= 49
+  [debug] id= 110 time= 115 points= 48
+  [debug] id= 137 time= 115 points= 48
+  [debug] id= 41 time= 119 points= 46
+  [debug] id= 161 time= 125 points= 45
+  [debug] id= 95 time= 130 points= 44
+  [debug] id= 249 time= 137 points= 43
+  [debug] id= 143 time= 143 points= 42
+  [debug] id= 227 time= 143 points= 42
+  [debug] id= 185 time= 144 points= 40
+  [debug] id= 187 time= 149 points= 39
+  [debug] id= 233 time= 163 points= 38
+  [debug] id= 256 time= 163 points= 38
+  [debug] id= 134 time= 170 points= 36
+  [debug] id= 67 time= 175 points= 35
+  [debug] id= 156 time= 175 points= 35
+  [debug] id= 100 time= 176 points= 33
+  [debug] id= 139 time= 177 points= 32
+  [debug] id= 114 time= 180 points= 31
+  [debug] id= 196 time= 189 points= 30
+  [debug] id= 105 time= 194 points= 29
+  [debug] id= 213 time= 194 points= 29
+  [debug] id= 81 time= 196 points= 27
+  [debug] id= 3 time= 205 points= 26
+  [debug] id= 87 time= 207 points= 25
+  [debug] id= 128 time= 209 points= 24
+  [debug] id= 178 time= 214 points= 23
+  [debug] id= 177 time= 220 points= 22
+  [debug] id= 208 time= 230 points= 21
+  [debug] id= 190 time= 232 points= 20
+  [debug] id= 173 time= 233 points= 19
+  [debug] id= 198 time= 237 points= 18
+  [debug] id= 48 time= 240 points= 17
+  [debug] id= 55 time= 245 points= 16
+  [debug] id= 97 time= 249 points= 15
+  [debug] id= 58 time= 254 points= 14
+  [debug] id= 254 time= 267 points= 13
+  [debug] id= 252 time= 280 points= 12
+  [debug] id= 27 time= 291 points= 11
+  [debug] id= 60 time= 304 points= 10
+  [debug] id= 140 time= 308 points= 9
+  [debug] id= 75 time= 314 points= 8
+  [debug] id= 223 time= 317 points= 7
+  [debug] id= 39 time= 318 points= 6
+  [debug] id= 98 time= 323 points= 5
+  [debug] id= 136 time= 323 points= 5
+  [debug] id= 64 time= 331 points= 3
+  [debug] id= 74 time= 336 points= 2
+  [debug] id= 31 time= 337 points= 1
+  [debug] id= 229 time= 337 points= 1
+  [debug] 
+  [debug] Quest 10 Part 2
+  [debug] id= 156 time= 706 points= 100
+  [debug] id= 53 time= 1011 points= 99
+  [debug] id= 236 time= 1015 points= 98
+  [debug] id= 36 time= 1174 points= 97
+  [debug] id= 89 time= 1239 points= 96
+  [debug] id= 138 time= 1330 points= 95
+  [debug] id= 144 time= 1365 points= 94
+  [debug] id= 117 time= 1476 points= 93
+  [debug] id= 29 time= 1477 points= 92
+  [debug] id= 226 time= 1509 points= 91
+  [debug] id= 119 time= 1623 points= 90
+  [debug] id= 103 time= 1735 points= 89
+  [debug] 
+  [debug] Quest 10 Part 3
+  [debug] id= 144 time= 1771 points= 150
+  [debug] id= 119 time= 1988 points= 149
+  [debug] 
+  [debug] Quest 11 Part 1
+  [debug] id= 71 time= 101 points= 50
+  [debug] id= 69 time= 110 points= 49
+  [debug] id= 146 time= 121 points= 48
+  [debug] id= 150 time= 122 points= 47
+  [debug] id= 254 time= 124 points= 46
+  [debug] id= 212 time= 131 points= 45
+  [debug] id= 26 time= 132 points= 44
+  [debug] id= 70 time= 141 points= 43
+  [debug] id= 42 time= 142 points= 42
+  [debug] id= 186 time= 142 points= 42
+  [debug] id= 199 time= 142 points= 42
+  [debug] id= 67 time= 148 points= 39
+  [debug] id= 165 time= 149 points= 38
+  [debug] id= 220 time= 150 points= 37
+  [debug] id= 68 time= 158 points= 36
+  [debug] id= 126 time= 169 points= 35
+  [debug] id= 149 time= 169 points= 35
+  [debug] id= 15 time= 180 points= 33
+  [debug] id= 134 time= 180 points= 33
+  [debug] id= 93 time= 189 points= 31
+  [debug] id= 35 time= 190 points= 30
+  [debug] id= 153 time= 194 points= 29
+  [debug] id= 135 time= 201 points= 28
+  [debug] id= 114 time= 202 points= 27
+  [debug] id= 147 time= 204 points= 26
+  [debug] id= 34 time= 208 points= 25
+  [debug] id= 166 time= 208 points= 25
+  [debug] id= 50 time= 209 points= 23
+  [debug] id= 41 time= 212 points= 22
+  [debug] id= 221 time= 215 points= 21
+  [debug] id= 252 time= 222 points= 20
+  [debug] id= 144 time= 224 points= 19
+  [debug] id= 12 time= 234 points= 18
+  [debug] id= 47 time= 237 points= 17
+  [debug] id= 86 time= 246 points= 16
+  [debug] id= 145 time= 253 points= 15
+  [debug] id= 119 time= 257 points= 14
+  [debug] id= 160 time= 268 points= 13
+  [debug] id= 25 time= 271 points= 12
+  [debug] id= 229 time= 272 points= 11
+  [debug] id= 210 time= 279 points= 10
+  [debug] id= 94 time= 295 points= 9
+  [debug] id= 219 time= 295 points= 9
+  [debug] id= 45 time= 296 points= 7
+  [debug] id= 75 time= 296 points= 7
+  [debug] id= 85 time= 297 points= 5
+  [debug] id= 24 time= 305 points= 4
+  [debug] id= 178 time= 305 points= 4
+  [debug] id= 188 time= 306 points= 2
+  [debug] id= 247 time= 306 points= 2
+  [debug] 
+  [debug] Quest 11 Part 2
+  [debug] id= 97 time= 822 points= 100
+  [debug] id= 127 time= 859 points= 99
+  [debug] id= 115 time= 884 points= 98
+  [debug] id= 215 time= 937 points= 97
+  [debug] id= 99 time= 996 points= 96
+  [debug] id= 251 time= 1051 points= 95
+  [debug] id= 13 time= 1092 points= 94
+  [debug] id= 224 time= 1102 points= 93
+  [debug] id= 170 time= 1118 points= 92
+  [debug] id= 172 time= 1145 points= 91
+  [debug] id= 88 time= 1169 points= 90
+  [debug] id= 238 time= 1178 points= 89
+  [debug] id= 72 time= 1221 points= 88
+  [debug] id= 20 time= 1356 points= 87
+  [debug] id= 44 time= 1366 points= 86
+  [debug] id= 140 time= 1366 points= 86
+  [debug] id= 65 time= 1378 points= 84
+  [debug] id= 56 time= 1594 points= 83
+  [debug] id= 132 time= 1687 points= 82
+  [debug] id= 157 time= 1894 points= 81
+  [debug] 
+  [debug] Quest 11 Part 3
+  [debug] id= 224 time= 1642 points= 150
+  [debug] id= 140 time= 1748 points= 149
+  [debug] id= 170 time= 1790 points= 148
+  [debug] id= 215 time= 1791 points= 147
+  [debug] id= 157 time= 2406 points= 146
+  [debug] 
+  [debug] Quest 12 Part 1
+  [debug] id= 13 time= 101 points= 50
+  [debug] id= 169 time= 101 points= 50
+  [debug] id= 50 time= 104 points= 48
+  [debug] id= 11 time= 105 points= 47
+  [debug] id= 213 time= 108 points= 46
+  [debug] id= 112 time= 112 points= 45
+  [debug] id= 123 time= 112 points= 45
+  [debug] id= 62 time= 114 points= 43
+  [debug] id= 139 time= 116 points= 42
+  [debug] id= 68 time= 121 points= 41
+  [debug] id= 223 time= 121 points= 41
+  [debug] id= 127 time= 122 points= 39
+  [debug] id= 236 time= 122 points= 39
+  [debug] id= 202 time= 126 points= 37
+  [debug] id= 83 time= 127 points= 36
+  [debug] id= 66 time= 135 points= 35
+  [debug] id= 97 time= 135 points= 35
+  [debug] id= 110 time= 136 points= 33
+  [debug] id= 154 time= 142 points= 32
+  [debug] id= 65 time= 145 points= 31
+  [debug] id= 163 time= 146 points= 30
+  [debug] id= 174 time= 148 points= 29
+  [debug] id= 226 time= 149 points= 28
+  [debug] id= 37 time= 150 points= 27
+  [debug] id= 129 time= 157 points= 26
+  [debug] id= 55 time= 163 points= 25
+  [debug] id= 44 time= 172 points= 24
+  [debug] id= 239 time= 173 points= 23
+  [debug] id= 52 time= 176 points= 22
+  [debug] id= 203 time= 181 points= 21
+  [debug] id= 196 time= 187 points= 20
+  [debug] id= 248 time= 187 points= 20
+  [debug] id= 216 time= 198 points= 18
+  [debug] id= 58 time= 207 points= 17
+  [debug] id= 27 time= 214 points= 16
+  [debug] id= 140 time= 214 points= 16
+  [debug] id= 141 time= 215 points= 14
+  [debug] id= 133 time= 218 points= 13
+  [debug] id= 49 time= 223 points= 12
+  [debug] id= 161 time= 225 points= 11
+  [debug] id= 188 time= 227 points= 10
+  [debug] id= 205 time= 230 points= 9
+  [debug] id= 17 time= 243 points= 8
+  [debug] id= 165 time= 245 points= 7
+  [debug] id= 48 time= 249 points= 6
+  [debug] id= 204 time= 249 points= 6
+  [debug] id= 89 time= 250 points= 4
+  [debug] id= 201 time= 267 points= 3
+  [debug] id= 194 time= 268 points= 2
+  [debug] id= 132 time= 272 points= 1
+  [debug] 
+  [debug] Quest 12 Part 2
+  [debug] id= 62 time= 272 points= 100
+  [debug] id= 58 time= 394 points= 99
+  [debug] id= 123 time= 480 points= 98
+  [debug] id= 179 time= 562 points= 97
+  [debug] id= 237 time= 566 points= 96
+  [debug] id= 116 time= 649 points= 95
+  [debug] id= 133 time= 660 points= 94
+  [debug] id= 76 time= 684 points= 93
+  [debug] id= 188 time= 700 points= 92
+  [debug] id= 226 time= 737 points= 91
+  [debug] id= 56 time= 769 points= 90
+  [debug] id= 255 time= 780 points= 89
+  [debug] id= 194 time= 807 points= 88
+  [debug] id= 95 time= 869 points= 87
+  [debug] id= 98 time= 901 points= 86
+  [debug] id= 142 time= 905 points= 85
+  [debug] id= 212 time= 992 points= 84
+  [debug] id= 64 time= 1005 points= 83
+  [debug] id= 228 time= 1012 points= 82
+  [debug] id= 200 time= 1174 points= 81
+  [debug] id= 42 time= 1184 points= 80
+  [debug] id= 39 time= 1210 points= 79
+  [debug] id= 45 time= 1284 points= 78
+  [debug] id= 63 time= 1437 points= 77
+  [debug] id= 199 time= 1521 points= 76
+  [debug] id= 23 time= 1574 points= 75
+  [debug] id= 177 time= 1595 points= 74
+  [debug] id= 78 time= 1768 points= 73
+  [debug] 
+  [debug] Quest 12 Part 3
+  [debug] id= 58 time= 1221 points= 150
+  [debug] id= 226 time= 1439 points= 149
+  [debug] id= 98 time= 1698 points= 148
+  [debug] 
+  [debug] Quest 13 Part 1
+  [debug] id= 255 time= 100 points= 50
+  [debug] id= 169 time= 108 points= 49
+  [debug] id= 175 time= 116 points= 48
+  [debug] id= 14 time= 122 points= 47
+  [debug] id= 163 time= 129 points= 46
+  [debug] id= 41 time= 137 points= 45
+  [debug] id= 254 time= 141 points= 44
+  [debug] id= 182 time= 151 points= 43
+  [debug] id= 135 time= 176 points= 42
+  [debug] id= 162 time= 196 points= 41
+  [debug] id= 230 time= 198 points= 40
+  [debug] id= 155 time= 208 points= 39
+  [debug] id= 138 time= 210 points= 38
+  [debug] id= 13 time= 211 points= 37
+  [debug] id= 172 time= 212 points= 36
+  [debug] id= 185 time= 223 points= 35
+  [debug] id= 28 time= 226 points= 34
+  [debug] id= 229 time= 226 points= 34
+  [debug] id= 49 time= 230 points= 32
+  [debug] id= 11 time= 232 points= 31
+  [debug] id= 85 time= 233 points= 30
+  [debug] id= 61 time= 237 points= 29
+  [debug] id= 51 time= 244 points= 28
+  [debug] id= 87 time= 250 points= 27
+  [debug] id= 225 time= 257 points= 26
+  [debug] id= 84 time= 265 points= 25
+  [debug] id= 81 time= 269 points= 24
+  [debug] id= 183 time= 269 points= 24
+  [debug] id= 158 time= 271 points= 22
+  [debug] id= 142 time= 273 points= 21
+  [debug] id= 159 time= 273 points= 21
+  [debug] id= 62 time= 278 points= 19
+  [debug] id= 177 time= 279 points= 18
+  [debug] id= 66 time= 296 points= 17
+  [debug] id= 109 time= 298 points= 16
+  [debug] id= 19 time= 300 points= 15
+  [debug] id= 167 time= 301 points= 14
+  [debug] id= 202 time= 301 points= 14
+  [debug] id= 205 time= 304 points= 12
+  [debug] id= 73 time= 306 points= 11
+  [debug] id= 203 time= 313 points= 10
+  [debug] id= 90 time= 315 points= 9
+  [debug] id= 126 time= 316 points= 8
+  [debug] id= 110 time= 321 points= 7
+  [debug] id= 35 time= 324 points= 6
+  [debug] id= 26 time= 326 points= 5
+  [debug] id= 44 time= 328 points= 4
+  [debug] id= 253 time= 328 points= 4
+  [debug] id= 69 time= 343 points= 2
+  [debug] id= 153 time= 349 points= 1
+  [debug] id= 191 time= 349 points= 1
+  [debug] 
+  [debug] Quest 13 Part 2
+  [debug] id= 81 time= 801 points= 100
+  [debug] id= 255 time= 839 points= 99
+  [debug] id= 87 time= 872 points= 98
+  [debug] id= 122 time= 1053 points= 97
+  [debug] id= 36 time= 1232 points= 96
+  [debug] id= 238 time= 1236 points= 95
+  [debug] id= 25 time= 1240 points= 94
+  [debug] id= 199 time= 1324 points= 93
+  [debug] id= 21 time= 1325 points= 92
+  [debug] id= 194 time= 1332 points= 91
+  [debug] id= 209 time= 1375 points= 90
+  [debug] id= 131 time= 1410 points= 89
+  [debug] id= 130 time= 1648 points= 88
+  [debug] id= 168 time= 1800 points= 87
+  [debug] 
+  [debug] Quest 13 Part 3
+  [debug] 
+  [debug] Quest 14 Part 1
+  [debug] id= 111 time= 101 points= 50
+  [debug] id= 166 time= 105 points= 49
+  [debug] id= 218 time= 106 points= 48
+  [debug] id= 133 time= 120 points= 47
+  [debug] id= 27 time= 122 points= 46
+  [debug] id= 153 time= 125 points= 45
+  [debug] id= 132 time= 130 points= 44
+  [debug] id= 123 time= 137 points= 43
+  [debug] id= 165 time= 138 points= 42
+  [debug] id= 141 time= 142 points= 41
+  [debug] id= 7 time= 145 points= 40
+  [debug] id= 89 time= 148 points= 39
+  [debug] id= 139 time= 150 points= 38
+  [debug] id= 145 time= 152 points= 37
+  [debug] id= 115 time= 158 points= 36
+  [debug] id= 4 time= 169 points= 35
+  [debug] id= 44 time= 169 points= 35
+  [debug] id= 151 time= 178 points= 33
+  [debug] id= 173 time= 180 points= 32
+  [debug] id= 32 time= 181 points= 31
+  [debug] id= 208 time= 191 points= 30
+  [debug] id= 68 time= 195 points= 29
+  [debug] id= 128 time= 198 points= 28
+  [debug] id= 118 time= 199 points= 27
+  [debug] id= 107 time= 204 points= 26
+  [debug] id= 194 time= 205 points= 25
+  [debug] id= 232 time= 205 points= 25
+  [debug] id= 37 time= 209 points= 23
+  [debug] id= 120 time= 220 points= 22
+  [debug] id= 195 time= 221 points= 21
+  [debug] id= 183 time= 223 points= 20
+  [debug] id= 213 time= 227 points= 19
+  [debug] id= 30 time= 229 points= 18
+  [debug] id= 119 time= 230 points= 17
+  [debug] id= 224 time= 235 points= 16
+  [debug] id= 80 time= 240 points= 15
+  [debug] id= 214 time= 242 points= 14
+  [debug] id= 56 time= 244 points= 13
+  [debug] id= 215 time= 251 points= 12
+  [debug] id= 5 time= 261 points= 11
+  [debug] id= 229 time= 262 points= 10
+  [debug] id= 76 time= 263 points= 9
+  [debug] id= 106 time= 263 points= 9
+  [debug] id= 207 time= 263 points= 9
+  [debug] id= 180 time= 264 points= 6
+  [debug] id= 164 time= 267 points= 5
+  [debug] id= 253 time= 272 points= 4
+  [debug] id= 67 time= 274 points= 3
+  [debug] id= 78 time= 279 points= 2
+  [debug] id= 138 time= 280 points= 1
+  [debug] 
+  [debug] Quest 14 Part 2
+  [debug] id= 78 time= 460 points= 100
+  [debug] id= 4 time= 720 points= 99
+  [debug] id= 9 time= 779 points= 98
+  [debug] id= 63 time= 830 points= 97
+  [debug] id= 16 time= 873 points= 96
+  [debug] id= 159 time= 887 points= 95
+  [debug] id= 215 time= 984 points= 94
+  [debug] id= 34 time= 1016 points= 93
+  [debug] id= 100 time= 1107 points= 92
+  [debug] id= 121 time= 1129 points= 91
+  [debug] id= 118 time= 1137 points= 90
+  [debug] id= 247 time= 1352 points= 89
+  [debug] id= 48 time= 1374 points= 88
+  [debug] id= 249 time= 1374 points= 88
+  [debug] id= 18 time= 1400 points= 86
+  [debug] id= 40 time= 1469 points= 85
+  [debug] id= 69 time= 1508 points= 84
+  [debug] id= 222 time= 1571 points= 83
+  [debug] id= 46 time= 1613 points= 82
+  [debug] id= 126 time= 1686 points= 81
+  [debug] id= 190 time= 1890 points= 80
+  [debug] 
+  [debug] Quest 14 Part 3
+  [debug] id= 63 time= 1160 points= 150
+  [debug] id= 46 time= 1836 points= 149
+  [debug] id= 118 time= 1929 points= 148
+  [debug] id= 18 time= 2038 points= 147
+  [debug] 
+  [debug] Quest 15 Part 1
+  [debug] id= 74 time= 104 points= 50
+  [debug] id= 164 time= 109 points= 49
+  [debug] id= 141 time= 113 points= 48
+  [debug] id= 59 time= 128 points= 47
+  [debug] id= 108 time= 134 points= 46
+  [debug] id= 181 time= 134 points= 46
+  [debug] id= 241 time= 134 points= 46
+  [debug] id= 149 time= 138 points= 43
+  [debug] id= 157 time= 143 points= 42
+  [debug] id= 189 time= 147 points= 41
+  [debug] id= 239 time= 149 points= 40
+  [debug] id= 165 time= 150 points= 39
+  [debug] id= 132 time= 151 points= 38
+  [debug] id= 196 time= 154 points= 37
+  [debug] id= 5 time= 157 points= 36
+  [debug] id= 60 time= 158 points= 35
+  [debug] id= 219 time= 158 points= 35
+  [debug] id= 243 time= 171 points= 33
+  [debug] id= 224 time= 173 points= 32
+  [debug] id= 131 time= 176 points= 31
+  [debug] id= 66 time= 179 points= 30
+  [debug] id= 40 time= 188 points= 29
+  [debug] id= 251 time= 189 points= 28
+  [debug] id= 200 time= 198 points= 27
+  [debug] id= 199 time= 200 points= 26
+  [debug] id= 89 time= 202 points= 25
+  [debug] id= 143 time= 207 points= 24
+  [debug] id= 22 time= 209 points= 23
+  [debug] id= 176 time= 212 points= 22
+  [debug] id= 182 time= 221 points= 21
+  [debug] id= 232 time= 224 points= 20
+  [debug] id= 95 time= 230 points= 19
+  [debug] id= 256 time= 231 points= 18
+  [debug] id= 70 time= 233 points= 17
+  [debug] id= 63 time= 235 points= 16
+  [debug] id= 64 time= 235 points= 16
+  [debug] id= 11 time= 236 points= 14
+  [debug] id= 28 time= 248 points= 13
+  [debug] id= 183 time= 255 points= 12
+  [debug] id= 211 time= 255 points= 12
+  [debug] id= 128 time= 264 points= 10
+  [debug] id= 3 time= 265 points= 9
+  [debug] id= 137 time= 270 points= 8
+  [debug] id= 9 time= 271 points= 7
+  [debug] id= 226 time= 273 points= 6
+  [debug] id= 116 time= 274 points= 5
+  [debug] id= 17 time= 280 points= 4
+  [debug] id= 191 time= 293 points= 3
+  [debug] id= 187 time= 295 points= 2
+  [debug] id= 140 time= 296 points= 1
+  [debug] 
+  [debug] Quest 15 Part 2
+  [debug] id= 256 time= 340 points= 100
+  [debug] id= 147 time= 469 points= 99
+  [debug] id= 243 time= 474 points= 98
+  [debug] id= 41 time= 533 points= 97
+  [debug] id= 241 time= 678 points= 96
+  [debug] id= 1 time= 832 points= 95
+  [debug] id= 157 time= 925 points= 94
+  [debug] id= 97 time= 938 points= 93
+  [debug] id= 59 time= 1020 points= 92
+  [debug] id= 141 time= 1079 points= 91
+  [debug] id= 85 time= 1123 points= 90
+  [debug] id= 45 time= 1136 points= 89
+  [debug] id= 30 time= 1140 points= 88
+  [debug] id= 54 time= 1181 points= 87
+  [debug] id= 166 time= 1239 points= 86
+  [debug] id= 236 time= 1291 points= 85
+  [debug] id= 167 time= 1342 points= 84
+  [debug] id= 193 time= 1364 points= 83
+  [debug] id= 218 time= 1408 points= 82
+  [debug] id= 101 time= 1413 points= 81
+  [debug] id= 150 time= 1436 points= 80
+  [debug] id= 220 time= 1461 points= 79
+  [debug] id= 179 time= 1473 points= 78
+  [debug] id= 68 time= 1512 points= 77
+  [debug] id= 230 time= 1532 points= 76
+  [debug] id= 122 time= 1563 points= 75
+  [debug] id= 86 time= 1582 points= 74
+  [debug] id= 21 time= 1587 points= 73
+  [debug] id= 37 time= 1597 points= 72
+  [debug] id= 208 time= 1671 points= 71
+  [debug] id= 123 time= 1776 points= 70
+  [debug] id= 43 time= 1980 points= 69
+  [debug] 
+  [debug] Quest 15 Part 3
+  [debug] id= 1 time= 1407 points= 150
+  [debug] id= 167 time= 1718 points= 149
+  [debug] id= 150 time= 2202 points= 148
+  [debug] id= 122 time= 2379 points= 147
+  [debug] 
+  [debug] Quest 16 Part 1
+  [debug] id= 119 time= 122 points= 50
+  [debug] id= 207 time= 124 points= 49
+  [debug] id= 212 time= 125 points= 48
+  [debug] id= 151 time= 127 points= 47
+  [debug] id= 159 time= 127 points= 47
+  [debug] id= 219 time= 137 points= 45
+  [debug] id= 194 time= 140 points= 44
+  [debug] id= 7 time= 141 points= 43
+  [debug] id= 213 time= 144 points= 42
+  [debug] id= 129 time= 146 points= 41
+  [debug] id= 42 time= 151 points= 40
+  [debug] id= 5 time= 152 points= 39
+  [debug] id= 206 time= 155 points= 38
+  [debug] id= 234 time= 155 points= 38
+  [debug] id= 60 time= 157 points= 36
+  [debug] id= 19 time= 159 points= 35
+  [debug] id= 256 time= 165 points= 34
+  [debug] id= 158 time= 166 points= 33
+  [debug] id= 52 time= 172 points= 32
+  [debug] id= 115 time= 175 points= 31
+  [debug] id= 121 time= 177 points= 30
+  [debug] id= 180 time= 178 points= 29
+  [debug] id= 205 time= 191 points= 28
+  [debug] id= 153 time= 195 points= 27
+  [debug] id= 208 time= 196 points= 26
+  [debug] id= 187 time= 198 points= 25
+  [debug] id= 199 time= 206 points= 24
+  [debug] id= 236 time= 216 points= 23
+  [debug] id= 106 time= 238 points= 22
+  [debug] id= 26 time= 242 points= 21
+  [debug] id= 47 time= 244 points= 20
+  [debug] id= 43 time= 254 points= 19
+  [debug] id= 80 time= 255 points= 18
+  [debug] id= 87 time= 257 points= 17
+  [debug] id= 254 time= 258 points= 16
+  [debug] id= 90 time= 259 points= 15
+  [debug] id= 247 time= 259 points= 15
+  [debug] id= 123 time= 263 points= 13
+  [debug] id= 251 time= 273 points= 12
+  [debug] id= 1 time= 275 points= 11
+  [debug] id= 182 time= 278 points= 10
+  [debug] id= 166 time= 279 points= 9
+  [debug] id= 173 time= 279 points= 9
+  [debug] id= 138 time= 284 points= 7
+  [debug] id= 238 time= 284 points= 7
+  [debug] id= 22 time= 295 points= 5
+  [debug] id= 189 time= 301 points= 4
+  [debug] id= 209 time= 301 points= 4
+  [debug] id= 221 time= 315 points= 2
+  [debug] id= 13 time= 318 points= 1
+  [debug] 
+  [debug] Quest 16 Part 2
+  [debug] id= 42 time= 432 points= 100
+  [debug] id= 138 time= 449 points= 99
+  [debug] id= 129 time= 470 points= 98
+  [debug] id= 62 time= 637 points= 97
+  [debug] id= 199 time= 686 points= 96
+  [debug] id= 53 time= 725 points= 95
+  [debug] id= 18 time= 796 points= 94
+  [debug] id= 145 time= 852 points= 93
+  [debug] id= 226 time= 881 points= 92
+  [debug] id= 202 time= 888 points= 91
+  [debug] id= 117 time= 1044 points= 90
+  [debug] id= 181 time= 1063 points= 89
+  [debug] id= 137 time= 1079 points= 88
+  [debug] id= 81 time= 1088 points= 87
+  [debug] id= 45 time= 1102 points= 86
+  [debug] id= 222 time= 1174 points= 85
+  [debug] id= 136 time= 1299 points= 84
+  [debug] id= 163 time= 1425 points= 83
+  [debug] id= 223 time= 1426 points= 82
+  [debug] id= 114 time= 1439 points= 81
+  [debug] id= 38 time= 1502 points= 80
+  [debug] id= 232 time= 1518 points= 79
+  [debug] id= 71 time= 1524 points= 78
+  [debug] id= 217 time= 1647 points= 77
+  [debug] id= 162 time= 1681 points= 76
+  [debug] id= 14 time= 1852 points= 75
+  [debug] id= 130 time= 1898 points= 74
+  [debug] 
+  [debug] Quest 16 Part 3
+  [debug] id= 129 time= 720 points= 150
+  [debug] 
+  [debug] Quest 17 Part 1
+  [debug] id= 157 time= 111 points= 50
+  [debug] id= 192 time= 114 points= 49
+  [debug] id= 208 time= 117 points= 48
+  [debug] id= 58 time= 118 points= 47
+  [debug] id= 51 time= 119 points= 46
+  [debug] id= 189 time= 119 points= 46
+  [debug] id= 249 time= 123 points= 44
+  [debug] id= 241 time= 127 points= 43
+  [debug] id= 179 time= 130 points= 42
+  [debug] id= 203 time= 131 points= 41
+  [debug] id= 123 time= 132 points= 40
+  [debug] id= 41 time= 135 points= 39
+  [debug] id= 36 time= 136 points= 38
+  [debug] id= 205 time= 136 points= 38
+  [debug] id= 215 time= 136 points= 38
+  [debug] id= 178 time= 145 points= 35
+  [debug] id= 151 time= 146 points= 34
+  [debug] id= 77 time= 150 points= 33
+  [debug] id= 116 time= 152 points= 32
+  [debug] id= 74 time= 162 points= 31
+  [debug] id= 152 time= 163 points= 30
+  [debug] id= 92 time= 166 points= 29
+  [debug] id= 216 time= 176 points= 28
+  [debug] id= 71 time= 180 points= 27
+  [debug] id= 104 time= 196 points= 26
+  [debug] id= 94 time= 203 points= 25
+  [debug] id= 253 time= 211 points= 24
+  [debug] id= 140 time= 219 points= 23
+  [debug] id= 240 time= 221 points= 22
+  [debug] id= 200 time= 223 points= 21
+  [debug] id= 100 time= 231 points= 20
+  [debug] id= 1 time= 237 points= 19
+  [debug] id= 19 time= 238 points= 18
+  [debug] id= 82 time= 242 points= 17
+  [debug] id= 26 time= 245 points= 16
+  [debug] id= 139 time= 247 points= 15
+  [debug] id= 186 time= 250 points= 14
+  [debug] id= 142 time= 259 points= 13
+  [debug] id= 195 time= 262 points= 12
+  [debug] id= 232 time= 262 points= 12
+  [debug] id= 239 time= 263 points= 10
+  [debug] id= 124 time= 266 points= 9
+  [debug] id= 252 time= 266 points= 9
+  [debug] id= 84 time= 272 points= 7
+  [debug] id= 91 time= 276 points= 6
+  [debug] id= 247 time= 281 points= 5
+  [debug] id= 169 time= 290 points= 4
+  [debug] id= 227 time= 293 points= 3
+  [debug] id= 209 time= 306 points= 2
+  [debug] id= 83 time= 307 points= 1
+  [debug] 
+  [debug] Quest 17 Part 2
+  [debug] id= 157 time= 392 points= 100
+  [debug] id= 227 time= 529 points= 99
+  [debug] id= 240 time= 643 points= 98
+  [debug] id= 245 time= 734 points= 97
+  [debug] id= 87 time= 783 points= 96
+  [debug] id= 47 time= 885 points= 95
+  [debug] id= 50 time= 917 points= 94
+  [debug] id= 178 time= 928 points= 93
+  [debug] id= 10 time= 968 points= 92
+  [debug] id= 55 time= 1022 points= 91
+  [debug] id= 117 time= 1210 points= 90
+  [debug] id= 224 time= 1229 points= 89
+  [debug] id= 27 time= 1259 points= 88
+  [debug] id= 8 time= 1298 points= 87
+  [debug] id= 255 time= 1432 points= 86
+  [debug] id= 181 time= 1563 points= 85
+  [debug] id= 146 time= 1616 points= 84
+  [debug] id= 11 time= 1813 points= 83
+  [debug] 
+  [debug] Quest 17 Part 3
+  [debug] id= 227 time= 890 points= 150
+  [debug] id= 146 time= 1763 points= 149
+  [debug] id= 255 time= 2083 points= 148
+  [debug] 
+  [debug] Quest 18 Part 1
+  [debug] id= 180 time= 116 points= 50
+  [debug] id= 59 time= 127 points= 49
+  [debug] id= 70 time= 131 points= 48
+  [debug] id= 12 time= 132 points= 47
+  [debug] id= 36 time= 132 points= 47
+  [debug] id= 215 time= 133 points= 45
+  [debug] id= 133 time= 138 points= 44
+  [debug] id= 251 time= 139 points= 43
+  [debug] id= 173 time= 150 points= 42
+  [debug] id= 90 time= 151 points= 41
+  [debug] id= 198 time= 153 points= 40
+  [debug] id= 209 time= 157 points= 39
+  [debug] id= 108 time= 176 points= 38
+  [debug] id= 60 time= 186 points= 37
+  [debug] id= 171 time= 189 points= 36
+  [debug] id= 44 time= 192 points= 35
+  [debug] id= 207 time= 197 points= 34
+  [debug] id= 65 time= 202 points= 33
+  [debug] id= 22 time= 203 points= 32
+  [debug] id= 116 time= 203 points= 32
+  [debug] id= 143 time= 205 points= 30
+  [debug] id= 238 time= 209 points= 29
+  [debug] id= 159 time= 210 points= 28
+  [debug] id= 214 time= 224 points= 27
+  [debug] id= 124 time= 225 points= 26
+  [debug] id= 165 time= 227 points= 25
+  [debug] id= 9 time= 235 points= 24
+  [debug] id= 174 time= 239 points= 23
+  [debug] id= 115 time= 240 points= 22
+  [debug] id= 53 time= 245 points= 21
+  [debug] id= 96 time= 248 points= 20
+  [debug] id= 240 time= 254 points= 19
+  [debug] id= 237 time= 258 points= 18
+  [debug] id= 58 time= 265 points= 17
+  [debug] id= 231 time= 267 points= 16
+  [debug] id= 155 time= 272 points= 15
+  [debug] id= 235 time= 291 points= 14
+  [debug] id= 156 time= 297 points= 13
+  [debug] id= 197 time= 302 points= 12
+  [debug] id= 66 time= 310 points= 11
+  [debug] id= 52 time= 314 points= 10
+  [debug] id= 208 time= 321 points= 9
+  [debug] id= 130 time= 322 points= 8
+  [debug] id= 135 time= 323 points= 7
+  [debug] id= 219 time= 326 points= 6
+  [debug] id= 76 time= 328 points= 5
+  [debug] id= 247 time= 337 points= 4
+  [debug] id= 38 time= 343 points= 3
+  [debug] id= 191 time= 343 points= 3
+  [debug] id= 102 time= 346 points= 1
+  [debug] 
+  [debug] Quest 18 Part 2
+  [debug] id= 44 time= 562 points= 100
+  [debug] id= 143 time= 628 points= 99
+  [debug] id= 112 time= 647 points= 98
+  [debug] id= 9 time= 826 points= 97
+  [debug] id= 146 time= 846 points= 96
+  [debug] id= 123 time= 852 points= 95
+  [debug] id= 81 time= 865 points= 94
+  [debug] id= 49 time= 909 points= 93
+  [debug] id= 105 time= 915 points= 92
+  [debug] id= 33 time= 919 points= 91
+  [debug] id= 145 time= 983 points= 90
+  [debug] id= 188 time= 996 points= 89
+  [debug] id= 132 time= 1064 points= 88
+  [debug] id= 215 time= 1103 points= 87
+  [debug] id= 42 time= 1172 points= 86
+  [debug] id= 208 time= 1250 points= 85
+  [debug] id= 7 time= 1314 points= 84
+  [debug] id= 61 time= 1347 points= 83
+  [debug] id= 134 time= 1366 points= 82
+  [debug] id= 225 time= 1410 points= 81
+  [debug] id= 131 time= 1523 points= 80
+  [debug] id= 185 time= 1547 points= 79
+  [debug] id= 16 time= 1574 points= 78
+  [debug] id= 92 time= 1809 points= 77
+  [debug] 
+  [debug] Quest 18 Part 3
+  [debug] id= 143 time= 952 points= 150
+  [debug] id= 208 time= 1831 points= 149
+  [debug] 
+  [debug] Quest 19 Part 1
+  [debug] id= 155 time= 108 points= 50
+  [debug] id= 10 time= 121 points= 49
+  [debug] id= 81 time= 123 points= 48
+  [debug] id= 141 time= 123 points= 48
+  [debug] id= 92 time= 126 points= 46
+  [debug] id= 218 time= 135 points= 45
+  [debug] id= 67 time= 136 points= 44
+  [debug] id= 15 time= 141 points= 43
+  [debug] id= 142 time= 142 points= 42
+  [debug] id= 230 time= 143 points= 41
+  [debug] id= 151 time= 144 points= 40
+  [debug] id= 214 time= 151 points= 39
+  [debug] id= 111 time= 163 points= 38
+  [debug] id= 207 time= 163 points= 38
+  [debug] id= 91 time= 165 points= 36
+  [debug] id= 153 time= 167 points= 35
+  [debug] id= 198 time= 171 points= 34
+  [debug] id= 63 time= 187 points= 33
+  [debug] id= 70 time= 187 points= 33
+  [debug] id= 19 time= 200 points= 31
+  [debug] id= 2 time= 202 points= 30
+  [debug] id= 12 time= 203 points= 29
+  [debug] id= 38 time= 207 points= 28
+  [debug] id= 199 time= 209 points= 27
+  [debug] id= 104 time= 214 points= 26
+  [debug] id= 23 time= 219 points= 25
+  [debug] id= 122 time= 219 points= 25
+  [debug] id= 255 time= 222 points= 23
+  [debug] id= 237 time= 228 points= 22
+  [debug] id= 205 time= 234 points= 21
+  [debug] id= 253 time= 234 points= 21
+  [debug] id= 48 time= 240 points= 19
+  [debug] id= 21 time= 241 points= 18
+  [debug] id= 56 time= 241 points= 18
+  [debug] id= 215 time= 249 points= 16
+  [debug] id= 197 time= 258 points= 15
+  [debug] id= 29 time= 261 points= 14
+  [debug] id= 102 time= 281 points= 13
+  [debug] id= 188 time= 288 points= 12
+  [debug] id= 135 time= 297 points= 11
+  [debug] id= 31 time= 298 points= 10
+  [debug] id= 114 time= 298 points= 10
+  [debug] id= 167 time= 300 points= 8
+  [debug] id= 248 time= 301 points= 7
+  [debug] id= 231 time= 303 points= 6
+  [debug] id= 136 time= 308 points= 5
+  [debug] id= 126 time= 312 points= 4
+  [debug] id= 196 time= 312 points= 4
+  [debug] id= 101 time= 314 points= 2
+  [debug] id= 69 time= 315 points= 1
+  [debug] 
+  [debug] Quest 19 Part 2
+  [debug] id= 184 time= 504 points= 100
+  [debug] id= 214 time= 588 points= 99
+  [debug] id= 239 time= 658 points= 98
+  [debug] id= 68 time= 701 points= 97
+  [debug] id= 240 time= 715 points= 96
+  [debug] id= 157 time= 785 points= 95
+  [debug] id= 34 time= 811 points= 94
+  [debug] id= 227 time= 835 points= 93
+  [debug] id= 164 time= 879 points= 92
+  [debug] id= 72 time= 948 points= 91
+  [debug] id= 42 time= 967 points= 90
+  [debug] id= 167 time= 982 points= 89
+  [debug] id= 169 time= 1057 points= 88
+  [debug] id= 123 time= 1064 points= 87
+  [debug] id= 39 time= 1101 points= 86
+  [debug] id= 87 time= 1266 points= 85
+  [debug] id= 17 time= 1308 points= 84
+  [debug] id= 36 time= 1332 points= 83
+  [debug] id= 181 time= 1528 points= 82
+  [debug] id= 32 time= 1595 points= 81
+  [debug] id= 178 time= 1616 points= 80
+  [debug] id= 219 time= 1690 points= 79
+  [debug] id= 9 time= 1753 points= 78
+  [debug] id= 201 time= 1772 points= 77
+  [debug] id= 162 time= 1789 points= 76
+  [debug] id= 176 time= 1832 points= 75
+  [debug] 
+  [debug] Quest 19 Part 3
+  [debug] id= 68 time= 841 points= 150
+  [debug] id= 42 time= 1196 points= 149
+  [debug] 
+  [debug] Quest 20 Part 1
+  [debug] id= 138 time= 100 points= 50
+  [debug] id= 81 time= 103 points= 49
+  [debug] id= 87 time= 104 points= 48
+  [debug] id= 52 time= 111 points= 47
+  [debug] id= 126 time= 112 points= 46
+  [debug] id= 99 time= 115 points= 45
+  [debug] id= 45 time= 118 points= 44
+  [debug] id= 221 time= 123 points= 43
+  [debug] id= 103 time= 126 points= 42
+  [debug] id= 190 time= 137 points= 41
+  [debug] id= 62 time= 140 points= 40
+  [debug] id= 137 time= 144 points= 39
+  [debug] id= 86 time= 145 points= 38
+  [debug] id= 220 time= 149 points= 37
+  [debug] id= 53 time= 152 points= 36
+  [debug] id= 93 time= 155 points= 35
+  [debug] id= 167 time= 157 points= 34
+  [debug] id= 20 time= 165 points= 33
+  [debug] id= 206 time= 167 points= 32
+  [debug] id= 246 time= 173 points= 31
+  [debug] id= 114 time= 182 points= 30
+  [debug] id= 238 time= 184 points= 29
+  [debug] id= 19 time= 185 points= 28
+  [debug] id= 110 time= 186 points= 27
+  [debug] id= 250 time= 192 points= 26
+  [debug] id= 251 time= 205 points= 25
+  [debug] id= 30 time= 206 points= 24
+  [debug] id= 150 time= 209 points= 23
+  [debug] id= 121 time= 218 points= 22
+  [debug] id= 125 time= 222 points= 21
+  [debug] id= 216 time= 222 points= 21
+  [debug] id= 96 time= 223 points= 19
+  [debug] id= 18 time= 230 points= 18
+  [debug] id= 191 time= 230 points= 18
+  [debug] id= 29 time= 231 points= 16
+  [debug] id= 176 time= 247 points= 15
+  [debug] id= 255 time= 249 points= 14
+  [debug] id= 74 time= 256 points= 13
+  [debug] id= 154 time= 256 points= 13
+  [debug] id= 94 time= 260 points= 11
+  [debug] id= 202 time= 260 points= 11
+  [debug] id= 180 time= 267 points= 9
+  [debug] id= 67 time= 268 points= 8
+  [debug] id= 245 time= 270 points= 7
+  [debug] id= 222 time= 273 points= 6
+  [debug] id= 39 time= 279 points= 5
+  [debug] id= 66 time= 282 points= 4
+  [debug] id= 6 time= 284 points= 3
+  [debug] id= 224 time= 289 points= 2
+  [debug] id= 210 time= 297 points= 1
+  [debug] 
+  [debug] Quest 20 Part 2
+  [debug] id= 174 time= 433 points= 100
+  [debug] id= 20 time= 557 points= 99
+  [debug] id= 62 time= 652 points= 98
+  [debug] id= 206 time= 735 points= 97
+  [debug] id= 43 time= 767 points= 96
+  [debug] id= 147 time= 801 points= 95
+  [debug] id= 83 time= 870 points= 94
+  [debug] id= 15 time= 882 points= 93
+  [debug] id= 133 time= 883 points= 92
+  [debug] id= 129 time= 954 points= 91
+  [debug] id= 97 time= 1057 points= 90
+  [debug] id= 163 time= 1088 points= 89
+  [debug] id= 135 time= 1137 points= 88
+  [debug] id= 104 time= 1279 points= 87
+  [debug] id= 228 time= 1330 points= 86
+  [debug] id= 151 time= 1408 points= 85
+  [debug] id= 92 time= 1490 points= 84
+  [debug] id= 189 time= 1604 points= 83
+  [debug] id= 9 time= 1708 points= 82
+  [debug] id= 95 time= 1858 points= 81
+  [debug] 
+  [debug] Quest 20 Part 3
+  [debug] id= 104 time= 2099 points= 150
+  [debug] 
+  [debug] Final Ranking:
+  [debug] 1 points= 1189
+  [debug] 2 points= 784
+  [debug] 3 points= 742
+  [debug] 4 points= 721
+  [debug] 5 points= 707
+  [debug] 6 points= 649
+  [debug] 7 points= 647
+  [debug] 8 points= 635
+  [debug] 9 points= 622
+  [debug] 10 points= 611
+  [debug] 11 points= 604
+  [debug] 12 points= 599
+  [debug] 13 points= 575
+  [debug] 14 points= 555
+  [debug] 15 points= 553
+  [debug] 16 points= 542
+  [debug] 17 points= 538
+  [debug] 18 points= 533
+  [debug] 19 points= 532
+  [debug] 20 points= 521
+  [debug] 21 points= 516
+  [debug] 22 points= 503
+  [debug] 23 points= 500
+  [debug] 24 points= 491
+  [debug] 25 points= 483
+  [debug] 26 points= 481
+  [debug] 27 points= 479
+  [debug] 28 points= 476
+  [debug] 29 points= 469
+  [debug] 30 points= 468
+  [debug] 31 points= 465
+  [debug] 32 points= 463
+  [debug] 33 points= 460
+  [debug] 34 points= 458
+  [debug] 35 points= 446
+  [debug] 36 points= 437
+  [debug] 37 points= 437
+  [debug] 38 points= 432
+  [debug] 39 points= 431
+  [debug] 40 points= 430
+  [debug] 41 points= 424
+  [debug] 42 points= 414
+  [debug] 43 points= 411
+  [debug] 44 points= 409
+  [debug] 45 points= 406
+  [debug] 46 points= 404
+  [debug] 47 points= 402
+  [debug] 48 points= 398
+  [debug] 49 points= 397
+  [debug] 50 points= 392
+  [debug] 51 points= 390
+  [debug] 52 points= 385
+  [debug] 53 points= 376
+  [debug] 54 points= 375
+  [debug] 55 points= 374
+  [debug] 56 points= 374
+  [debug] 57 points= 373
+  [debug] 58 points= 370
+  [debug] 59 points= 367
+  [debug] 60 points= 364
+  [debug] 61 points= 361
+  [debug] 62 points= 361
+  [debug] 63 points= 360
+  [debug] 64 points= 358
+  [debug] 65 points= 356
+  [debug] 66 points= 355
+  [debug] 67 points= 354
+  [debug] 68 points= 351
+  [debug] 69 points= 349
+  [debug] 70 points= 346
+  [debug] 71 points= 344
+  [debug] 72 points= 340
+  [debug] 73 points= 340
+  [debug] 74 points= 338
+  [debug] 75 points= 338
+  [debug] 76 points= 333
+  [debug] 77 points= 333
+  [debug] 78 points= 331
+  [debug] 79 points= 331
+  [debug] 80 points= 318
+  [debug] 81 points= 315
+  [debug] 82 points= 313
+  [debug] 83 points= 310
+  [debug] 84 points= 308
+  [debug] 85 points= 305
+  [debug] 86 points= 301
+  [debug] 87 points= 301
+  [debug] 88 points= 298
+  [debug] 89 points= 294
+  [debug] 90 points= 294
+  [debug] 91 points= 294
+  [debug] 92 points= 293
+  [debug] 93 points= 292
+  [debug] 94 points= 292
+  [debug] 95 points= 290
+  [debug] 96 points= 289
+  [debug] 97 points= 289
+  [debug] 98 points= 287
+  [debug] 99 points= 281
+  [debug] 100 points= 277
+  [debug] 101 points= 275
+  [debug] 102 points= 273
+  [debug] 103 points= 272
+  [debug] 104 points= 272
+  [debug] 105 points= 272
+  [debug] 106 points= 271
+  [debug] 107 points= 270
+  [debug] 108 points= 270
+  [debug] 109 points= 270
+  [debug] 110 points= 269
+  [debug] 111 points= 267
+  [debug] 112 points= 265
+  [debug] 113 points= 262
+  [debug] 114 points= 262
+  [debug] 115 points= 261
+  [debug] 116 points= 261
+  [debug] 117 points= 260
+  [debug] 118 points= 260
+  [debug] 119 points= 259
+  [debug] 120 points= 257
+  [debug] 121 points= 257
+  [debug] 122 points= 257
+  [debug] 123 points= 256
+  [debug] 124 points= 250
+  [debug] 125 points= 249
+  [debug] 126 points= 248
+  [debug] 127 points= 247
+  [debug] 128 points= 246
+  [debug] 129 points= 246
+  [debug] 130 points= 244
+  [debug] 131 points= 241
+  [debug] 132 points= 240
+  [debug] 133 points= 240
+  [debug] 134 points= 237
+  [debug] 135 points= 237
+  [debug] 136 points= 237
+  [debug] 137 points= 235
+  [debug] 138 points= 234
+  [debug] 139 points= 233
+  [debug] 140 points= 232
+  [debug] 141 points= 232
+  [debug] 142 points= 230
+  [debug] 143 points= 226
+  [debug] 144 points= 224
+  [debug] 145 points= 223
+  [debug] 146 points= 217
+  [debug] 147 points= 217
+  [debug] 148 points= 216
+  [debug] 149 points= 216
+  [debug] 150 points= 215
+  [debug] 151 points= 215
+  [debug] 152 points= 213
+  [debug] 153 points= 212
+  [debug] 154 points= 211
+  [debug] 155 points= 211
+  [debug] 156 points= 210
+  [debug] 157 points= 209
+  [debug] 158 points= 209
+  [debug] 159 points= 207
+  [debug] 160 points= 204
+  [debug] 161 points= 204
+  [debug] 162 points= 203
+  [debug] 163 points= 203
+  [debug] 164 points= 201
+  [debug] 165 points= 196
+  [debug] 166 points= 195
+  [debug] 167 points= 191
+  [debug] 168 points= 189
+  [debug] 169 points= 186
+  [debug] 170 points= 186
+  [debug] 171 points= 182
+  [debug] 172 points= 181
+  [debug] 173 points= 179
+  [debug] 174 points= 178
+  [debug] 175 points= 176
+  [debug] 176 points= 176
+  [debug] 177 points= 175
+  [debug] 178 points= 174
+  [debug] 179 points= 174
+  [debug] 180 points= 172
+  [debug] 181 points= 170
+  [debug] 182 points= 169
+  [debug] 183 points= 168
+  [debug] 184 points= 168
+  [debug] 185 points= 167
+  [debug] 186 points= 166
+  [debug] 187 points= 166
+  [debug] 188 points= 165
+  [debug] 189 points= 162
+  [debug] 190 points= 161
+  [debug] 191 points= 159
+  [debug] 192 points= 159
+  [debug] 193 points= 157
+  [debug] 194 points= 157
+  [debug] 195 points= 157
+  [debug] 196 points= 156
+  [debug] 197 points= 155
+  [debug] 198 points= 154
+  [debug] 199 points= 154
+  [debug] 200 points= 153
+  [debug] 201 points= 153
+  [debug] 202 points= 153
+  [debug] 203 points= 152
+  [debug] 204 points= 151
+  [debug] 205 points= 150
+  [debug] 206 points= 146
+  [debug] 207 points= 141
+  [debug] 208 points= 139
+  [debug] 209 points= 136
+  [debug] 210 points= 136
+  [debug] 211 points= 135
+  [debug] 212 points= 134
+  [debug] 213 points= 134
+  [debug] 214 points= 133
+  [debug] 215 points= 133
+  [debug] 216 points= 132
+  [debug] 217 points= 132
+  [debug] 218 points= 130
+  [debug] 219 points= 130
+  [debug] 220 points= 125
+  [debug] 221 points= 122
+  [debug] 222 points= 121
+  [debug] 223 points= 117
+  [debug] 224 points= 116
+  [debug] 225 points= 115
+  [debug] 226 points= 115
+  [debug] 227 points= 115
+  [debug] 228 points= 114
+  [debug] 229 points= 113
+  [debug] 230 points= 113
+  [debug] 231 points= 112
+  [debug] 232 points= 112
+  [debug] 233 points= 111
+  [debug] 234 points= 108
+  [debug] 235 points= 107
+  [debug] 236 points= 104
+  [debug] 237 points= 102
+  [debug] 238 points= 101
+  [debug] 239 points= 93
+  [debug] 240 points= 92
+  [debug] 241 points= 91
+  [debug] 242 points= 88
+  [debug] 243 points= 75
+  [debug] 244 points= 74
+  [debug] 245 points= 74
+  [debug] 246 points= 67
+  [debug] 247 points= 57
+  [debug] 248 points= 54
+  [debug] 249 points= 50
+  [debug] 250 points= 47
+  [debug] 251 points= 45
+  [debug] 252 points= 45
+  [debug] 253 points= 43
+  [debug] 254 points= 40
+  [debug] 255 points= 31
+  [debug] 256 points= 22
+✗ expected '6232480', got '6246309'
+
+ANSWER: 6246309
