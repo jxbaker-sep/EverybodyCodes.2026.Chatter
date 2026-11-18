@@ -13,6 +13,7 @@ use get_input from "../util/io"
 get_input
 map it using characters 6 to end of it # skip ISO2-, else 'integers' results in negative
 map it using the result of integers it
+constant encodings is it
 
 variable sum_of_digits is 0
 
@@ -54,7 +55,7 @@ function is_smallest_representation takes number value with_iso number iso retur
     return true
 end function
 
-repeat with encoding in it
+repeat with encoding in encodings
     constant digit is the result of decode item 2 of encoding with_iso item 1 of encoding
     is_smallest_representation item 2 of encoding with_iso item 1 of encoding
     if it

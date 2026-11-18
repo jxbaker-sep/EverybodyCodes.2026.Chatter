@@ -1,0 +1,37 @@
+# Quest 4 — Part 1
+#
+# Run with:
+#     ./run.py 4 1 --example     # against part1.example.txt
+#     ./run.py 4 1               # against part1.txt
+#
+# Print the final answer using:
+#     say "ANSWER:", value
+# Anything else printed via `say` is ignored by run.py (treated as debug).
+
+use range from "std:list"
+use integers from "std:parser"
+use get_input from "../util/io"
+
+get_input
+map it using the result of integers it
+constant standings is it
+
+range 1 to length of standings / 3
+map it using 0
+constant rankings is it
+
+repeat with standing in standings
+    constant id is item 1 of standing
+    constant time is item 4 of standing
+    add time to item id of rankings
+end repeat
+
+sort rankings
+
+variable result is 0
+repeat with index from 1 to length of rankings
+    add index * item index of rankings to result
+end repeat
+
+# TODO: solve quest 4 part 1
+say "ANSWER:", result
