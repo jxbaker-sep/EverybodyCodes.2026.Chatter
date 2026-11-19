@@ -1,0 +1,13 @@
+export type Grid is list of list of string
+
+export function gridify takes list of string strings returns list of list of string is
+    constant result is empty Grid
+    repeat with line in strings
+        constant row is empty list of string
+        append row to result
+        repeat with index from 1 to length of line
+            append character index of line to row
+        end repeat
+    end repeat
+    return result
+end function
