@@ -8,8 +8,37 @@
 #     say "ANSWER:", value
 # Anything else printed via `say` is ignored by run.py (treated as debug).
 
+use value_or from "std:dictionary"
+use make_queue_with, dequeue, enqueue from "std:queue"
+use split from "std:string"
 use get_input from "../util/io"
-constant input is the result of get_input
+get_input
+constant ingredients is empty dictionary from string to list of string
+repeat with line in it
+    split line on ":"
+    constant key is item 1 of it
+    split item 2 of it on ","
+    constant values is it
+    repeat with vlue in values
+        constant xxx is the result of value_or vlue in ingredients with empty list of string
+        append key to xxx
+        change value of vlue in ingredients to xxx
+    end repeat
+end repeat
 
-# TODO: solve quest 6 part 2
-say "ANSWER:", "TODO"
+make_queue_with "NULL"
+constant open is it
+
+constant closed is unique list of "NULL"
+
+repeat while length of open is at least 1
+    constant current is the result of dequeue open
+    repeat with ingredient in value of current in ingredients
+        if not closed contains ingredient and ingredients contains ingredient
+            enqueue open with ingredient
+        end if
+        add ingredient to closed
+    end repeat
+end repeat
+
+say "ANSWER:", length of closed - 1

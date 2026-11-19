@@ -35,5 +35,4 @@ repeat while length of open is at least 1
     end repeat
 end repeat
 
-# TODO: solve quest 6 part 1
 say "ANSWER:", length of closed - 1
