@@ -8,8 +8,149 @@
 #     say "ANSWER:", value
 # Anything else printed via `say` is ignored by run.py (treated as debug).
 
+use gridify from "../util/grid"
 use get_input from "../util/io"
-constant input is the result of get_input
+get_input
+gridify it
+constant grid is it
 
-# TODO: solve quest 5 part 2
-say "ANSWER:", "TODO"
+function repl takes string s returns string is
+    # if s is "#"
+    #     return "#"
+    # end if 
+    # return "."
+    return s
+end function
+
+function print_grid is
+    repeat with row in grid
+        map row using the result of repl it
+        reduce it starting "" using accumulator & it
+        say it
+    end repeat
+    say ""
+end function
+
+constant max_row is length of grid
+constant max_col is length of item 1 of grid
+
+constant middle_row is item ((max_row + 1) / 2) of grid
+change item ((max_col + 1) / 2) of middle_row to "#"
+variable changes is true
+variable hashes is 1
+repeat while changes
+    # print_grid
+    change changes to false
+    repeat with row from 1 to max_row
+        constant dys is list of row
+        if row is greater than 1
+            append row - 1 to dys
+        end if
+        if row is less than max_row
+            append row + 1 to dys
+        end if
+        repeat with col from 1 to max_col
+            if item col of item row of grid is "#"
+                next repeat
+            end if
+            constant dxs is list of col
+            if col is greater than 1
+                append col - 1 to dxs
+            end if
+            if col is less than max_col
+                append col + 1 to dxs
+            end if
+            variable total is 0
+            variable some_land is false
+            repeat with dx in dxs
+                repeat with dy in dys
+                    if dx is col and dy is row
+                        next repeat
+                    end if
+                    constant neighbor is item dx of item dy of grid
+                    if neighbor is "1"
+                        add 1 to total
+                    else if neighbor is "#"
+                        add 1 to total
+                        change some_land to true
+                    end if
+                end repeat
+            end repeat
+            if total is at least 5 and some_land
+                constant rrrow is item row of grid
+                change item col of rrrow to "#"
+                change changes to true
+                add 1 to hashes
+            end if
+        end repeat
+    end repeat
+end repeat
+
+# Anything that is not now land is water
+repeat with row in grid
+    repeat with col from 1 to length of row
+        if item col of row is not "#"
+            change item col of row to "."
+        end if
+    end repeat
+end repeat
+
+# next: find sand
+change changes to true
+variable sand is 0
+repeat while changes
+    change changes to false
+    repeat with row from 1 to max_row
+        constant dys is list of row
+        if row is greater than 1
+            append row - 1 to dys
+        end if
+        if row is less than max_row
+            append row + 1 to dys
+        end if
+        repeat with col from 1 to max_col
+            if item col of item row of grid is not "#"
+                next repeat
+            end if
+            if col is 1 or col is max_col or row is 1 or row is max_row
+                constant rrrow is item row of grid
+                change item col of rrrow to "="
+                change changes to true
+                add 1 to sand
+                next repeat
+            end if
+
+            constant dxs is list of col
+            if col is greater than 1
+                append col - 1 to dxs
+            end if
+            if col is less than max_col
+                append col + 1 to dxs
+            end if
+            variable total is 0
+            variable some_water is false
+            repeat with dx in dxs
+                repeat with dy in dys
+                    if dx is col and dy is row
+                        next repeat
+                    end if
+                    constant neighbor is item dx of item dy of grid
+                    if neighbor is "="
+                        add 1 to total
+                    else if neighbor is "."
+                        change some_water to true
+                    end if
+                end repeat
+            end repeat
+            if total is at least 5 or some_water
+                constant rrrow is item row of grid
+                change item col of rrrow to "="
+                change changes to true
+                add 1 to sand
+            end if
+        end repeat
+    end repeat
+end repeat
+
+# print_grid
+say "ANSWER:", sand
