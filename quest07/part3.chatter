@@ -35,12 +35,13 @@ function send_impulse takes number original_strength to number original_id retur
     map it using false
     constant exploded is it
 
-    variable changes is true
-    variable stage is 1
-    repeat while changes
-        change changes to false
-        # say original_id, stage
-        add 1 to stage
+    repeat while true
+        # if no changes, we can exit
+        map impulses using the result of sum it
+        sum it
+        if it is 0
+            exit repeat
+        end if
 
         range 1 to max_id
         map it using list of 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
@@ -58,7 +59,6 @@ function send_impulse takes number original_strength to number original_id retur
                             next repeat
                         end if
                         add count to item (strength - 1) of item connection of next_impulses
-                        change changes to true
                     end repeat
                 end if
 
@@ -76,7 +76,6 @@ function send_impulse takes number original_strength to number original_id retur
                         next repeat
                     end if
                     add 1 to item 10 of item connection of next_impulses
-                    change changes to true
                 end repeat
             end if
         end repeat

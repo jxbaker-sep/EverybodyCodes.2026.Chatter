@@ -1,0 +1,70 @@
+# Quest 8 — Part 1
+#
+# Run with:
+#     ./run.py 8 1 --example     # against part1.example.txt
+#     ./run.py 8 1               # against part1.txt
+#
+# Print the final answer using:
+#     say "ANSWER:", value
+# Anything else printed via `say` is ignored by run.py (treated as debug).
+
+use parse from "std:string"
+use gridify from "../util/grid"
+use get_input from "../util/io"
+get_input
+gridify it
+function repl takes string c returns number is
+    if c is "."
+        return 0
+    end if
+    parse c
+    return it
+end function
+
+function repl2 takes list of string lc returns list of number is
+    map lc using the result of repl it
+    return it
+end function
+
+map it using the result of repl2 it
+constant trees is it
+
+constant max_row is length of trees
+constant max_col is length of item 1 of trees
+
+function cast_shadow takes number original_x y number original_y returns number is
+    variable y is original_y
+    variable x is original_x
+    variable shadow is 0
+    variable result is 0
+    repeat while x is at most max_col and y is at most max_row
+        constant current is item x of item y of trees
+        if current is greater than shadow
+            add 1 to result
+            change shadow to current
+        end if
+        subtract 1 from shadow
+        add 1 to x
+        add 1 to y
+    end repeat
+    return result
+end function
+
+variable x1 is 1
+variable total is 0
+repeat with y1 from (max_row + 1) / 2 down to 1
+    cast_shadow x1 y y1
+    add it to total
+    add 1 to x1
+end repeat
+
+subtract 1 from x1
+
+repeat (max_row - 1) / 2 times
+    add 2 to x1
+    cast_shadow x1 y 1
+    add it to total
+end repeat
+
+# TODO: solve quest 8 part 1
+say "ANSWER:", total
