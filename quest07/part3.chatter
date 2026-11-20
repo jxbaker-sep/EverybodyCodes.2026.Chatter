@@ -1,8 +1,9 @@
 
 use integers from "std:parser"
 use parse from "std:string"
+use sum from "std:math"
 use get_input, get_extra_input from "../util/io"
-use add_range, range from "std:list"
+use range from "std:list"
 get_input
 constant original_energy is empty list of number
 constant connections is empty list of list of number
@@ -12,115 +13,88 @@ repeat with line in it
     append items 3 to end of it to connections
 end repeat
 
-constant max_id is length of original_energy
-
 get_extra_input
 parse item 1 of it
 constant explosion_limit is it
 
-struct CacheKey
-    number Id
-    number Impulse
-    list of boolean Exploded
-end struct
 
-struct SendImpulseResult
-    list of number Energy
-    list of boolean Exploded
-end struct
+constant max_id is length of original_energy
 
-constant cache is empty dictionary from CacheKey to SendImpulseResult
+function send_impulse takes number original_strength to number original_id returns list of number is 
+    #impulses: id -> strength -> count
+    range 1 to max_id
+    map it using list of 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+    variable impulses is it
 
-function add_each_item takes list of number source to list of number destination is
-    repeat with index from 1 to length of source
-        add item index of source to item index of destination
-    end repeat
-end function
+    constant temp is item original_id of impulses
+    add 1 to item original_strength of temp
 
-function logical_or_each_item takes list of boolean source to list of boolean destination is
-    repeat with index from 1 to length of source
-        change item index of destination to item index of source or item index of destination
-    end repeat
-end function
+    map original_energy using it
+    constant energy is it
 
-function check_for_explosions takes list of number energy with_exploded list of boolean exploded is
-    constant neighbors is empty list of number
-    repeat with index from 1 to max_id
-        if item index of exploded
-            next repeat
-        end if
-        constant my_energy is item index of energy
-        if my_energy is at least explosion_limit
-            change item index of exploded to true
-            change item index of energy to 0
-            add_range item index of connections to neighbors
-        end if
-    end repeat
+    range 1 to max_id
+    map it using false
+    constant exploded is it
 
-    if neighbors is empty
-        return
-    end if
+    variable changes is true
+    variable stage is 1
+    repeat while changes
+        change changes to false
+        # say original_id, stage
+        add 1 to stage
 
-    map exploded using it
-    constant temp_exploded is it
-    repeat with neighbor in neighbors
-        constant ir is the result of send_impulse 10 to neighbor with_exploded exploded
-        add_each_item Energy of ir to energy
-        logical_or_each_item Exploded of ir to exploded
-    end repeat
+        range 1 to max_id
+        map it using list of 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        constant next_impulses is it
 
-    check_for_explosions energy with_exploded exploded
-end function 
+        # increment all current impulses
+        repeat with id from 1 to max_id
+            repeat with strength from 1 to 10
+                constant count is item strength of item id of impulses
+                add strength * count to item id of energy
 
-function send_impulse takes number impulse to number id with_exploded list of boolean exploded returns SendImpulseResult is
-    map exploded using it
-    constant key is make CacheKey with Id id, Impulse impulse, Exploded it
-    if cache contains key
-        return value of key in cache
-    end if
-    map original_energy using 0
-    constant my_energy is it
-    map exploded using it
-    constant my_exploded is it
-    add impulse to item id of my_energy
-    if impulse is at least 2
-        repeat with connection in item id of connections
-            if item connection of my_exploded
-                next repeat
-            end if
-            constant ir is the result of send_impulse impulse - 1 to connection with_exploded my_exploded
-            add_each_item Energy of ir to my_energy
-            logical_or_each_item Exploded of ir to my_exploded
+                if strength is at least 2 and count is at least 1
+                    repeat with connection in item id of connections
+                        if item connection of exploded
+                            next repeat
+                        end if
+                        add count to item (strength - 1) of item connection of next_impulses
+                        change changes to true
+                    end repeat
+                end if
+
+            end repeat
         end repeat
-    end if
-    check_for_explosions my_energy with_exploded my_exploded
-    constant result is make SendImpulseResult with Energy my_energy, Exploded my_exploded
-    change value of key in cache to result
-    return result
+
+        # check for explosions
+        repeat with id from 1 to max_id
+            if item id of energy is at least explosion_limit
+                change item id of exploded to true
+                change item id of next_impulses to list of 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+                change item id of energy to 0
+                repeat with connection in item id of connections
+                    if item connection of exploded
+                        next repeat
+                    end if
+                    constant temp3 is item connection of next_impulses
+                    add 1 to item 10 of temp3
+                    change changes to true
+                end repeat
+            end if
+        end repeat
+
+        change impulses to next_impulses
+    end repeat
+
+    return energy
 end function
 
 variable found is 0
-
 repeat with id from 1 to max_id
-    range 1 to max_id
-    map it using false
-    send_impulse 10 to id with_exploded it
-    constant impulse_result is it
-    map original_energy using it
-    constant my_energy is it
-    add_each_item Energy of impulse_result to my_energy
-    map Exploded of impulse_result using it
-    constant my_exploded is it
-    check_for_explosions my_energy with_exploded my_exploded
-    variable total is 0
-    repeat with index from 1 to max_id
-        if item index of my_exploded
-            next repeat
-        end if
-        add item index of my_energy to total
-    end repeat
-    if total is greater than found
-        change found to total
+    send_impulse 10 to id
+    sum it
+    if it is greater than found
+        change found to it
     end if
 end repeat
 
