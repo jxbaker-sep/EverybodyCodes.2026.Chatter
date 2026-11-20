@@ -57,6 +57,6 @@ end function
 
 send_impulse 10 to gnoc
 sum it
-variable temp is it
+constant temp is it
 sum energy
 say "ANSWER:", temp + it

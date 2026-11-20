@@ -1,15 +1,127 @@
-# Quest 7 — Part 3
-#
-# Run with:
-#     ./run.py 7 3 --example     # against part3.example.txt
-#     ./run.py 7 3               # against part3.txt
-#
-# Print the final answer using:
-#     say "ANSWER:", value
-# Anything else printed via `say` is ignored by run.py (treated as debug).
 
-use get_input from "../util/io"
-constant input is the result of get_input
+use integers from "std:parser"
+use parse from "std:string"
+use get_input, get_extra_input from "../util/io"
+use add_range, range from "std:list"
+get_input
+constant original_energy is empty list of number
+constant connections is empty list of list of number
+repeat with line in it
+    integers line
+    append item 2 of it to original_energy
+    append items 3 to end of it to connections
+end repeat
 
-# TODO: solve quest 7 part 3
-say "ANSWER:", "TODO"
+constant max_id is length of original_energy
+
+get_extra_input
+parse item 1 of it
+constant explosion_limit is it
+
+struct CacheKey
+    number Id
+    number Impulse
+    list of boolean Exploded
+end struct
+
+struct SendImpulseResult
+    list of number Energy
+    list of boolean Exploded
+end struct
+
+constant cache is empty dictionary from CacheKey to SendImpulseResult
+
+function add_each_item takes list of number source to list of number destination is
+    repeat with index from 1 to length of source
+        add item index of source to item index of destination
+    end repeat
+end function
+
+function logical_or_each_item takes list of boolean source to list of boolean destination is
+    repeat with index from 1 to length of source
+        change item index of destination to item index of source or item index of destination
+    end repeat
+end function
+
+function check_for_explosions takes list of number energy with_exploded list of boolean exploded is
+    constant neighbors is empty list of number
+    repeat with index from 1 to max_id
+        if item index of exploded
+            next repeat
+        end if
+        constant my_energy is item index of energy
+        if my_energy is at least explosion_limit
+            change item index of exploded to true
+            change item index of energy to 0
+            add_range item index of connections to neighbors
+        end if
+    end repeat
+
+    if neighbors is empty
+        return
+    end if
+
+    map exploded using it
+    constant temp_exploded is it
+    repeat with neighbor in neighbors
+        constant ir is the result of send_impulse 10 to neighbor with_exploded exploded
+        add_each_item Energy of ir to energy
+        logical_or_each_item Exploded of ir to exploded
+    end repeat
+
+    check_for_explosions energy with_exploded exploded
+end function 
+
+function send_impulse takes number impulse to number id with_exploded list of boolean exploded returns SendImpulseResult is
+    map exploded using it
+    constant key is make CacheKey with Id id, Impulse impulse, Exploded it
+    if cache contains key
+        return value of key in cache
+    end if
+    map original_energy using 0
+    constant my_energy is it
+    map exploded using it
+    constant my_exploded is it
+    add impulse to item id of my_energy
+    if impulse is at least 2
+        repeat with connection in item id of connections
+            if item connection of my_exploded
+                next repeat
+            end if
+            constant ir is the result of send_impulse impulse - 1 to connection with_exploded my_exploded
+            add_each_item Energy of ir to my_energy
+            logical_or_each_item Exploded of ir to my_exploded
+        end repeat
+    end if
+    check_for_explosions my_energy with_exploded my_exploded
+    constant result is make SendImpulseResult with Energy my_energy, Exploded my_exploded
+    change value of key in cache to result
+    return result
+end function
+
+variable found is 0
+
+repeat with id from 1 to max_id
+    range 1 to max_id
+    map it using false
+    send_impulse 10 to id with_exploded it
+    constant impulse_result is it
+    map original_energy using it
+    constant my_energy is it
+    add_each_item Energy of impulse_result to my_energy
+    map Exploded of impulse_result using it
+    constant my_exploded is it
+    check_for_explosions my_energy with_exploded my_exploded
+    variable total is 0
+    repeat with index from 1 to max_id
+        if item index of my_exploded
+            next repeat
+        end if
+        add item index of my_energy to total
+    end repeat
+    if total is greater than found
+        change found to total
+    end if
+end repeat
+
+say "ANSWER:", found
