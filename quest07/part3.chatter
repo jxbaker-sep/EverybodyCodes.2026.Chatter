@@ -26,8 +26,7 @@ function send_impulse takes number original_strength to number original_id retur
     map it using list of 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
     variable impulses is it
 
-    constant temp is item original_id of impulses
-    add 1 to item original_strength of temp
+    add 1 to item original_strength of item original_id of impulses
 
     map original_energy using it
     constant energy is it
@@ -76,8 +75,7 @@ function send_impulse takes number original_strength to number original_id retur
                     if item connection of exploded
                         next repeat
                     end if
-                    constant temp3 is item connection of next_impulses
-                    add 1 to item 10 of temp3
+                    add 1 to item 10 of item connection of next_impulses
                     change changes to true
                 end repeat
             end if
