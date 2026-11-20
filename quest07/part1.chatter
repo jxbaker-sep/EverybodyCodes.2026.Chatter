@@ -1,0 +1,47 @@
+# Quest 7 — Part 1
+#
+# Run with:
+#     ./run.py 7 1 --example     # against part1.example.txt
+#     ./run.py 7 1               # against part1.txt
+#
+# Print the final answer using:
+#     say "ANSWER:", value
+# Anything else printed via `say` is ignored by run.py (treated as debug).
+
+use make_queue_with, dequeue, enqueue from "std:queue"
+use integers from "std:parser"
+use get_input from "../util/io"
+use sum from "std:math"
+get_input
+constant energy is empty list of number
+constant connections is empty list of list of number
+repeat with line in it
+    integers line
+    append item 2 of it to energy
+    append items 3 to end of it to connections
+end repeat
+
+# Identify greatest number of connections
+variable gnoc is 1
+repeat with index from 1 to length of connections
+    if length of item index of connections is greater than length of item gnoc of connections
+        change gnoc to index
+    end if
+end repeat
+
+constant open is the result of make_queue_with list of gnoc, 5
+
+repeat while length of open is at least 1
+    dequeue open
+    constant id is item 1 of it
+    constant impulse is item 2 of it
+    add impulse to item id of energy
+    if impulse is at least 2
+        repeat with connection in item id of connections
+            enqueue open with list of connection, (impulse - 1)
+        end repeat
+    end if
+end repeat
+
+sum energy
+say "ANSWER:", it

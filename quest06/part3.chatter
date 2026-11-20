@@ -45,7 +45,7 @@ repeat with target in list of "NULLv1", "NULLv2", "NULLv3"
         end repeat
     end repeat
 
-    remove target from closed
+    # remove target from closed
     change value of target in nulls to closed
 end repeat
 
