@@ -1,15 +1,94 @@
-# Quest 8 — Part 2
+# Quest 8 — Part 1
 #
 # Run with:
-#     ./run.py 8 2 --example     # against part2.example.txt
-#     ./run.py 8 2               # against part2.txt
+#     ./run.py 8 1 --example     # against part1.example.txt
+#     ./run.py 8 1               # against part1.txt
 #
 # Print the final answer using:
 #     say "ANSWER:", value
 # Anything else printed via `say` is ignored by run.py (treated as debug).
 
+use parse from "std:string"
+use gridify from "../util/grid"
 use get_input from "../util/io"
-constant input is the result of get_input
+get_input
+gridify it
+function repl takes string c returns number is
+    if c is "."
+        return 0
+    end if
+    parse c
+    return it
+end function
 
-# TODO: solve quest 8 part 2
-say "ANSWER:", "TODO"
+function repl2 takes list of string lc returns list of number is
+    map lc using the result of repl it
+    return it
+end function
+
+map it using the result of repl2 it
+constant trees is it
+
+constant max_row is length of trees
+constant max_col is length of item 1 of trees
+
+struct RayCast
+    number FirstX
+    number FirstY
+    number MoveX
+    number MoveY
+    number NextX
+    number NextY
+end struct
+
+constant rays is empty list of RayCast
+constant grid_side_length is (max_row + 1) / 2
+# ↘
+append make RayCast with FirstX 1, FirstY (max_row + 1) / 2, MoveX 1, MoveY 1, NextX 1, NextY -1 to rays
+# ↙
+append make RayCast with FirstX grid_side_length, FirstY 1, MoveX -1, MoveY 1, NextX 2, NextY 0 to rays
+# ←
+append make RayCast with FirstX grid_side_length * 3 - 2, FirstY 1, MoveX -2, MoveY 0, NextX 1, NextY 1 to rays
+# ↖
+append make RayCast with FirstX max_col, FirstY grid_side_length, MoveX -1, MoveY -1, NextX -1, NextY 1 to rays
+# ↗
+append make RayCast with FirstX 1, FirstY (max_row + 1) / 2, MoveX 1, MoveY -1, NextX 1, NextY 1 to rays
+# →
+append make RayCast with FirstX grid_side_length, FirstY 1, MoveX 2, MoveY 0, NextX -1, NextY 1 to rays
+
+function cast_shadow takes number original_x y number original_y dx number dx dy number dy returns number is
+    variable y is original_y
+    variable x is original_x
+    variable shadow is 0
+    variable result is 0
+    repeat while x is less than 1 or x is greater than max_col or y is less than 1 or y is greater than max_row
+        add dx to x
+        add dy to y
+    end repeat
+    repeat while x is at least 1 and x is at most max_col and y is at least 1 and y is at most max_row
+        constant current is item x of item y of trees
+        if current is greater than shadow and current is not 0
+            add 1 to result
+            change shadow to current
+        end if
+        subtract 1 from shadow
+        add dx to x
+        add dy to y
+    end repeat
+    return result
+end function
+
+variable total is 0
+repeat with ray in rays
+    variable x1 is FirstX of ray
+    variable y1 is FirstY of ray
+    repeat grid_side_length * 2 - 1 times
+        cast_shadow x1 y y1 dx MoveX of ray dy MoveY of ray
+        add it to total
+        add NextY of ray to y1
+        add NextX of ray to x1
+    end repeat
+end repeat
+
+# TODO: solve quest 8 part 1
+say "ANSWER:", total
