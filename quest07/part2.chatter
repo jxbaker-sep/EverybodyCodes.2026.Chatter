@@ -1,15 +1,62 @@
-# Quest 7 — Part 2
+# Quest 7 — Part 1
 #
 # Run with:
-#     ./run.py 7 2 --example     # against part2.example.txt
-#     ./run.py 7 2               # against part2.txt
+#     ./run.py 7 1 --example     # against part1.example.txt
+#     ./run.py 7 1               # against part1.txt
 #
 # Print the final answer using:
 #     say "ANSWER:", value
 # Anything else printed via `say` is ignored by run.py (treated as debug).
 
+use integers from "std:parser"
 use get_input from "../util/io"
-constant input is the result of get_input
+use sum from "std:math"
+get_input
+constant energy is empty list of number
+constant connections is empty list of list of number
+repeat with line in it
+    integers line
+    append item 2 of it to energy
+    append items 3 to end of it to connections
+end repeat
 
-# TODO: solve quest 7 part 2
-say "ANSWER:", "TODO"
+# Identify greatest number of connections
+variable gnoc is 1
+repeat with index from 1 to length of connections
+    if length of item index of connections is greater than length of item gnoc of connections
+        change gnoc to index
+    end if
+end repeat
+
+struct CacheKey
+    number Id
+    number Impulse
+end struct
+
+constant cache is empty dictionary from CacheKey to list of number
+
+function send_impulse takes number impulse to number id returns list of number is
+    constant key is make CacheKey with Id id, Impulse impulse
+    if cache contains key
+        return value of key in cache
+    end if
+    map energy using 0
+    constant result is it
+    add impulse to item id of result
+    if impulse is at least 2
+        repeat with connection in item id of connections
+            send_impulse impulse - 1 to connection
+            repeat with index from 1 to length of it
+                add item index of it to item index of result
+            end repeat
+        end repeat
+    end if
+    change value of key in cache to result
+    return result
+end function
+
+send_impulse 10 to gnoc
+sum it
+variable temp is it
+sum energy
+say "ANSWER:", temp + it
