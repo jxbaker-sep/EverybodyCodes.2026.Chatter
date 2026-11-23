@@ -8,8 +8,68 @@
 #     say "ANSWER:", value
 # Anything else printed via `say` is ignored by run.py (treated as debug).
 
+use sum from "std:math"
+use range from "std:list"
+use integers from "std:parser"
 use get_input from "../util/io"
-constant input is the result of get_input
+get_input
+map it using the result of integers it
+constant plants is it
 
-# TODO: solve quest 9 part 2
-say "ANSWER:", "TODO"
+function grow takes number growth limit number limit returns number is
+    variable seconds is 1
+    
+    range 1 to growth
+    map it using 0
+    variable leaf_elements is it
+    change item 1 of leaf_elements to 1
+    
+    range 1 to growth
+    map it using 0
+    variable branch_elements is it
+    
+    
+
+    repeat forever
+        sum leaf_elements
+        if it is at least limit
+            exit repeat
+        end if
+        add 1 to seconds
+
+        map leaf_elements using 0
+        constant next_leaves is it
+        map branch_elements using 0
+        constant next_branches is it
+
+        repeat with n from length of leaf_elements - 1 down to 1
+            constant count is item n of leaf_elements
+            if n is length of leaf_elements - 1
+                add count to item 1 of next_leaves
+                add count to item growth / 2 of next_leaves
+                add count to item growth / 2 of next_branches
+            else
+                add count to item n + 1 of next_leaves
+            end if
+        end repeat
+
+        repeat with n from length of branch_elements - 1 down to 1
+            constant count is item n of branch_elements
+            if n is length of branch_elements - 1
+                add count to item 1 of next_leaves
+                add count * 2 to item growth / 2 of next_branches
+            else
+                add count to item n + 1 of next_branches
+            end if
+        end repeat
+
+        change leaf_elements to next_leaves
+        change branch_elements to next_branches
+    end repeat
+    return seconds
+end function 
+
+map plants using the result of grow item 2 of it limit item 3 of it
+sum it
+
+say "ANSWER:", it

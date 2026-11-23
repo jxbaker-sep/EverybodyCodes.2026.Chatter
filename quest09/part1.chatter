@@ -20,12 +20,10 @@ constant plants is it
 function count_elements takes list of number elements returns number is
     with_indices elements
     constant indexed is it
-    # say indexed
     reduce items 1 to end - 1 of indexed starting 0 using accumulator + Index of it * Value of it
     variable result is it
     # Highest place holds branching points, count as 1 each
     add Value of item end of indexed to result
-    # say result
     return result
 end function 
 
