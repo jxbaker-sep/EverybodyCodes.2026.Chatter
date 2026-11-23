@@ -1,0 +1,13 @@
+export struct WithIndex over T
+    number Index
+    T Value
+end struct
+
+export function with_indices over T takes list of T input returns list of WithIndex of T is
+    constant result is empty list of WithIndex of T
+    repeat with n from 1 to length of input
+        constant value is item n of input
+        append make WithIndex with Index n, Value value to result
+    end repeat
+    return result
+end function

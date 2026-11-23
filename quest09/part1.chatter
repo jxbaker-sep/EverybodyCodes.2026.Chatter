@@ -1,0 +1,67 @@
+# Quest 9 — Part 1
+#
+# Run with:
+#     ./run.py 9 1 --example     # against part1.example.txt
+#     ./run.py 9 1               # against part1.txt
+#
+# Print the final answer using:
+#     say "ANSWER:", value
+# Anything else printed via `say` is ignored by run.py (treated as debug).
+
+use sum from "std:math"
+use with_indices from "../util/with_indices"
+use range from "std:list"
+use integers from "std:parser"
+use get_input from "../util/io"
+get_input
+map it using the result of integers it
+constant plants is it
+
+function count_elements takes list of number elements returns number is
+    with_indices elements
+    constant indexed is it
+    # say indexed
+    reduce items 1 to end - 1 of indexed starting 0 using accumulator + Index of it * Value of it
+    variable result is it
+    # Highest place holds branching points, count as 1 each
+    add Value of item end of indexed to result
+    # say result
+    return result
+end function 
+
+function grow takes number growth limit number limit returns number is
+    say growth, limit
+    range 1 to growth
+    variable seconds is 1
+    map it using 0
+    variable elements is it
+    change item 1 of elements to 1
+
+    repeat forever
+        count_elements elements
+        if it is at least limit
+            exit repeat
+        end if
+        add 1 to seconds
+
+        map elements using it
+        constant temp is item end - 1 of elements
+        repeat with n from length of elements - 1 down to 1
+            if n is length of elements - 1
+                add item n of elements to item n + 1 of elements
+            else
+                change item n + 1 of elements to item n of elements
+            end if
+        end repeat
+        change item 1 of elements to 0
+        add 2 * temp to item growth / 2 of elements 
+        add temp to item 1 of elements
+    end repeat
+    return seconds
+end function 
+
+map plants using the result of grow item 2 of it limit item 3 of it
+sum it
+
+# TODO: solve quest 9 part 1
+say "ANSWER:", it
